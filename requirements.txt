@@ -1,0 +1,8 @@
+pandas
+requests
+geopandas
+shapely
+scikit-learn
+xgboost
+folium
+jupyter

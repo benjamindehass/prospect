@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local caches (Macrostrat responses, scratch outputs)
+cache/
+*.log
+
+# Secrets (none expected, but never risk it)
+.env
