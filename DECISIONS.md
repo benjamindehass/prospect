@@ -2,6 +2,8 @@
 
 # 2 span = b_age - t_age, a feature indicating well dated vs undated. Will prefer sources with smallest span.
 
-# 3 (TODO) wrap requests in 2 attempts, sleep 2s, 5s between before miss declared
+# 3 (7/16) wrap requests in 2 attempts, sleep 2s, 5s between before miss declared
 
-# 4 (TODO) Begin distinguishing miss types in output
+# 4 (7/16) Begin distinguishing miss types in output
+
+# 5 (7/16) get_geology promoted to src/prospect/geology.py

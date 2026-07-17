@@ -1,0 +1,26 @@
+dep_id,site_name,commodity,lat,lng,status,lith,b_age,t_age,unit_name,map_source
+10144000,Kelly O'Neil Prospects,Mica,32.97706,-84.13271,OK,sedimentary rocks,541.0,419.2,Paleozoic sedimentary rocks,154
+10067858,Penland Hill,Manganese,34.03344,-85.28324,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+10216187,H.E.Lucas Property,,34.00074,-85.16934,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+10216302,Crosby No. 3 Mine,Kaolin,32.83296,-83.41069,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+10134673,Stovall Pit,"Sand and Gravel, Construction",33.67824,-84.61322,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+10119380,Tallapoosa Mine,Copper,33.85014,-85.08324,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+10305990,Prater Mine,Gold,34.37513,-83.8749,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+10143770,Huber Mill,Kaolin,32.71597,-83.52909,OK,Major:{clay},35.46,34.68,Twiggs Clay,133
+10083725,Young Deer Creek,Gold,34.19183,-84.05821,OK,paragneiss; paragneiss/metavolcanic gneiss,1600.0,1000.0,Mesoproterozoic crystalline metamorphic rocks,154
+10118701,Lot 826,,34.13573,-84.73553,OK,"Major:{sandstone,shale}",514.75,511.0,Rome Formation,133
+10184267,Clay Preparation Plant,Fire Clay (Refractory),33.43455,-81.98655,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+10144212,Lots 191 and 242,,34.19323,-84.77303,OK,"Major:{sandstone,shale}, Incidental:{conglomerate}",541.0,516.1,Chilhowee Formation,133
+10083697,Draketown Dist. (Douglas Mn Prospect & Statham Property),Manganese,33.85014,-85.04104,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+10240788,Unnamed Barium Deposit,Barium-Barite,34.17343,-84.77383,OK,"Major:{sandstone,shale}, Incidental:{conglomerate}",541.0,516.1,Chilhowee Formation,133
+10061566,Unnamed Sand Deposit,"Sand and Gravel, Construction",33.13766,-83.06458,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+10083807,Edmunds Prospect,Gold,33.65704,-82.49156,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+10061569,Unnamed Sand Deposit,"Sand and Gravel, Construction",31.5196,-83.36849,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+10305987,Stephens,Gold,34.37513,-83.8749,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+10216310,Burns Mine,Clay,32.78576,-83.59599,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+10240944,Chestatee Pyrite Mine,Sulfur,34.59902,-83.8816,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+10143867,Law Ground Branch Mine,Gold,34.94121,-83.19178,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+10216242,Duke Prospect,Aluminum,34.14843,-85.20554,OK,"Major:{limestone,shale}",511.0,493.575,Conasauga Group; Middle unit; Shale unit,133
+10168161,C M Hodges Sr Prospect,Aluminum,32.86956,-82.96238,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+10265807,Poole Prospect,Mica,33.96154,-84.87353,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+10305928,Morgan,Gold,34.20573,-84.37492,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
