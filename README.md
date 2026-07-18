@@ -1,6 +1,6 @@
 # Prospect
 
-The purpose of this code is to create a probability heatmap of Georgia predicting the likelihood that garnet occurs at a given location.
+The purpose of this code is to create a probability heatmap of Georgia predicting the likelihood that gold occurs at a given location. (v0 target was garnet; pivoted after label forensics — see DECISIONS.md #9. The pipeline is mineral-agnostic; garnet returns in v1 with augmented label sources.)
 
 ## Data sources & attribution
 

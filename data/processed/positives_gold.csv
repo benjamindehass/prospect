@@ -1,0 +1,510 @@
+lat,lng,site_name,dev_stat,label,status,lith,b_age,t_age,unit_name,map_source
+33.75014,-84.94993,A. C. Watkins Prospect,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.68398,-84.88982,Keaten-Thomas Prospect,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.91682,-83.58319,Tom Coward Gap Prospect,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.77934,-82.56426,Seminole/Magruder/Wardlaw/Jackson Veins,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.31183,-84.26661,Franklin-Creighton Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+33.65014,-85.08324,Reeds Mountain,Past Producer,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+34.81872,-83.30208,Henckel Mine,Unknown,1,OK,"Major:{biotite gneiss}, Minor:{amphibolite,mica schist}",1000.0,541.0,"Tallulah Falls Formation, gneiss and schist",133
+33.63074,-82.99158,Mitchell Hill Prospect,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.81124,-83.04158,Buffalo,Past Producer,1,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.80014,-83.01658,Morgan Mine (Arnold Prospect),Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.74184,-83.09158,Briscoe Mine (Drake Mine),Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.61684,-82.56516,Columbia Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.11123,-84.10821,Settles Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.21683,-84.24711,W.T. Fowler Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.06123,-84.15551,Little Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.24453,-84.13321,Sawnee Mt.,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.73344,-84.96663,Hixon,Past Producer,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+33.70014,-84.96663,J.L.Davis Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.70954,-85.28184,Hollins (Royal) Mine,Past Producer,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+33.75014,-84.93603,Chambers Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.70014,-84.87773,"No Name, Lot 77 2nd Dist.",Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.75344,-84.88553,Pine Mt. Mine,Past Producer,1,OK,plutonic: undivided granitic rocks,419.2,358.9,Devonian plutonic: undivided granitic rocks,7
+33.64044,-84.76993,No Name,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.19183,-84.05821,Young Deer Creek,Past Producer,1,OK,paragneiss; paragneiss/metavolcanic gneiss,1600.0,1000.0,Mesoproterozoic crystalline metamorphic rocks,154
+34.12933,-84.18601,Faver Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35573,-84.16931,Looper,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42093,-84.19711,Scott (Old Steele),Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.37233,-84.14301,Kim Mori Mines,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Missing Link Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Palmour,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.86682,-84.35551,Hackney Placer,Past Producer,1,OK,sedimentary,541.0,443.8,Cambrian-Ordovician sedimentary,7
+34.73342,-84.22071,Noontootly Creek,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.71122,-84.20551,Mccloud Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.64592,-84.33601,Unknown,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.74182,-84.41662,White Path,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.66682,-84.36522,Cartecay Mine (Lucky Eight),Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.84872,-84.07351,No Name,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.92092,-84.03741,Mauney Prospect,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.93622,-84.08601,Martin Mining Property,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.05983,-84.64572,Payne/Kendrick/Randall/House,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.07373,-84.61102,Cox,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.01954,-84.30821,Seven Branch,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.03623,-84.19161,John Creek Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.05843,-84.38602,Green Placer/Mcclure/Nunnaly,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.02514,-84.37352,Mcclure No.2,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.06683,-84.44432,Van Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.02514,-84.32912,Fuller Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.20433,-84.48322,Davis Mine (Owl Hollow),Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.20573,-84.37492,Rudicil Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.17703,-84.36302,T.N.Westbrook's,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.25843,-84.35962,Latham (Chester),Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.08903,-84.73603,J.J.Howard,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.10983,-84.65822,Georgiana Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11683,-84.68053,Allatoona Vein,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.13343,-84.52492,M.D. Smith,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.15903,-84.45962,Worley Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.38483,-84.33181,Burty No.1,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.12373,-84.36662,Chester (Turner) Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11823,-84.58052,Bell-Star,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.18763,-84.55492,Cherokee Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.01404,-84.86383,Sheffield & Heidt Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.26403,-84.33051,Sandow Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.04454,-84.83463,Dunaway Mine,Past Producer,1,OK,sedimentary,443.8,358.9,Silurian-Devonian sedimentary,7
+34.53122,-84.0041,Tahloneka Branch (Winfield Branch),Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.47872,-84.04071,Battle Branch Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.85014,-85.07354,No Name,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.79934,-85.11664,No Name,Past Producer,1,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+33.81324,-85.18604,No Name,Past Producer,1,OK,volcanic: mafic rocks,419.2,358.9,Devonian volcanic: mafic rocks,7
+33.84734,-84.78183,No Name,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.98764,-84.90823,No Name,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.91684,-84.96743,Yorkville Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.96544,-84.90553,Schofield Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.87954,-85.02214,Mcgarrity Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.55015,-85.01664,Stacy Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+33.25015,-84.73323,Bingham Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.45015,-84.98324,Clark and Hill Properties,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.43075,-85.00824,Hardagree Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.95014,-84.73323,Mason Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.97234,-84.69163,J.B.Kemp's Property (Hathaway Property),Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.21075,-84.81383,Lone Oak/Post/Wilkes,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.99454,-84.33182,No Name,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.47515,-84.15681,Walker Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.71404,-84.93183,Jones Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.50845,-83.8957,No Name,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.61684,-83.56239,Parker Prospect,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.83484,-83.7749,Smith Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.89184,-83.7471,Thompson Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.60014,-82.79987,Hillman,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.57514,-82.96657,Hackney-Lucas,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.81684,-82.62486,G.W. Booker Property,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+33.86124,-82.56236,Sales & Lamar Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+33.69874,-82.81097,Stone Ridge Mine  (Orr),Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.67514,-82.51516,Hilly Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+33.83764,-82.93737,Latimer Mine (Fairy Ridge),Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.65014,-82.46656,Ramsey Property,Past Producer,1,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.65704,-82.49156,Edmunds Prospect,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.66544,-82.43736,Dill,Past Producer,1,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.71264,-82.35126,Bohler (Mathis),Past Producer,1,OK,sedimentary,541.0,485.4,Cambrian sedimentary,7
+33.75014,-82.28595,Bussey Property,Past Producer,1,OK,sedimentary,541.0,485.4,Cambrian sedimentary,7
+33.76544,-82.35956,Samuels Place (Rhodes Taturn?),Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+33.61684,-82.54986,Parks Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.56684,-82.64987,Warren Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.20013,-84.09991,Lot 70 2nd Dist.,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.23343,-83.8888,Vickers Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.30843,-83.8443,Rogers and Anderson Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42233,-83.7166,Savage Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.43903,-83.8818,Parks Mine Et Al.,Past Producer,1,OK,paragneiss; paragneiss/metavolcanic gneiss,1600.0,1000.0,Mesoproterozoic crystalline metamorphic rocks,154
+34.38073,-83.9374,Cool Spring Church,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.20843,-83.9749,Banks Property,Past Producer,1,OK,paragneiss; paragneiss/metavolcanic gneiss,1600.0,1000.0,Mesoproterozoic crystalline metamorphic rocks,154
+34.34873,-83.9055,Johnson Property,Past Producer,1,OK,paragneiss; paragneiss/metavolcanic gneiss,1600.0,1000.0,Mesoproterozoic crystalline metamorphic rocks,154
+34.15703,-83.05678,Brown Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.23203,-83.04568,Ginn Placer,Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+34.31123,-83.8166,Twitty? Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41953,-83.9166,Smith Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37513,-83.8749,Elrod/Stephens/Keath/Newton/Ivy Mt./Prater Mines,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41823,-83.7457,Glade Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.21683,-83.06658,Ginn Placer,Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+34.11953,-83.08878,Smith Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.13623,-83.07488,Ridgeway Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.37793,-83.736,A.G. Jennings,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.38073,-83.03048,"Unknown, Prospect",Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.39453,-82.99297,"Unknown, Prospect",Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.36263,-83.09708,Unknown/Bowers Properties,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.34183,-83.06098,Hays Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.27513,-83.05128,Brown Mine (Kings Mount Gold Mine),Past Producer,1,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+34.97231,-83.886,Murdock Vein Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.96261,-83.95823,Gum Log/J.H. Brown/Brown/Placer Mines,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.98341,-83.9193,M. Kinsey Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.94731,-83.66659,Wills Creek Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.96261,-83.64159,Hooper & Berong Prospect,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.94181,-83.63179,Newton Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.90572,-83.9166,Killian Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.82092,-83.9749,Coosa Creek Placer Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.81952,-83.9221,Crumley Creek,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.89732,-83.9916,Wellborn-Robinson Property,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.63072,-83.7763,Baker & Son Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.70842,-83.68459,Lumsden Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.68622,-83.7388,Nichols Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.50842,-83.64159,Crow Heirs Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61122,-83.51799,H. Woods,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.73622,-83.56379,Ls Prade Placer(Shelton Mine; K & M Berron),Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63762,-83.46239,Nichols Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.67512,-83.53459,C.T. Willbanks,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.68202,-83.63049,Bell Davis Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.61822,-83.65409,Twiner/T.G. Edwards,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.58542,-83.63319,Chatman Estate,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.80572,-83.59429,L. Wilson Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.77512,-83.60549,T. Wood Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.73622,-83.50679,Bright Evans Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.90012,-83.44989,Bowers Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.93481,-83.49429,Moore Girl Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98901,-83.38319,Dillard/Ledford Placers,Past Producer,1,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+34.86122,-83.56659,Powell Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.83622,-83.58319,Reaves Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.87092,-83.38319,Screamer Mt.,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.89182,-83.48319,J.G. Welborn,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.92511,-83.22488,Hamby Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.93761,-83.18878,Page Property,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.56952,-83.9221,Cavender's Creek,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52232,-83.9846,Findley Mine Et Al. (Mines In the Dahlonega District),Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.56682,-83.8596,Ashbury Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.87512,-83.9499,Butt Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.35843,-83.8193,Jones,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.10983,-84.42492,Bailey Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.53485,-82.92067,Golucks-Rhodes,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.76204,-85.16744,Crew Prospect,Occurrence,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+33.75594,-85.09524,J.W. Thomason's Property,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.82014,-85.12074,Dean Property,Past Producer,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+33.82594,-85.09024,McBrayer's Property,Occurrence,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+33.78654,-85.24434,Edwards Mine,Past Producer,1,OK,volcanic: mafic rocks,419.2,358.9,Devonian volcanic: mafic rocks,7
+34.00294,-84.88603,Mathews Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.49735,-85.13464,Bonner Mine,Past Producer,1,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+33.68574,-83.63179,Conner Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.82794,-82.60126,Kendall Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.23343,-83.9443,Muddy Creek Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Maynas Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.96951,-83.17488,Hedden Placer Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.95011,-83.8541,Malden Prospect,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.90794,-84.79993,Dr. Parker's Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09593,-84.59572,Kelogg Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Reaves,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.28093,-84.33241,S. R. Smith Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.46153,-84.04681,Danae Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52652,-83.993,Capps Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09933,-84.71183,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.77624,-82.57266,Chamber Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.48982,-83.9952,Briar Patch Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.45843,-84.04271,Saprolite Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42123,-84.07601,Nina Head Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.57072,-83.9121,Cavender Creek Prospect,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.57592,-83.9102,Jumbo Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.10983,-84.65662,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47543,-84.04271,Battle Branch Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.67732,-83.6991,Mcneer Placers,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.70072,-83.7738,Ashbury Property,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.70342,-83.66989,Lot 10  Gold Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.70012,-83.7685,Henderson Property,Occurrence,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.10823,-84.65802,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.97294,-84.69323,J. B. Kemp Prospect,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.53732,-83.9682,Arnold Consolidated Gold Mines,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.61434,-82.56906,Hamilton Gold Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.95291,-83.61519,Newton Placer Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.49872,-83.68099,Lymsden Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47842,-84.02991,Hedwig Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.16843,-84.52412,Cherokee Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.94121,-83.19178,Law Ground Branch Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.52872,-83.9621,Lockhart Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.74122,-84.41772,White Path Quarry,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.53842,-83.9649,Tahloneka Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.12263,-84.66553,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52202,-83.9427,Boly Field Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.56952,-84.02101,Ralston  Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.68092,-83.738,Reynolds Vein,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.53822,-83.9705,Consolidated Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.92681,-83.56269,Barclay Gold Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98091,-83.9257,Horse Vein,Occurrence,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.94451,-83.49569,Moore Girl's Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.52372,-83.9874,Fish Trap Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.67574,-82.52406,Lon Edmonds Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.19093,-84.52822,Clarkson Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.07403,-84.64602,Payne Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.98231,-83.9168,Chastian Placer Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.50952,-84.0093,Barlow Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.66432,-83.7241,White Co Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.07593,-84.64602,Hamilton Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52982,-83.9988,Ivey Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.50982,-83.9802,Crown Mountain,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.89764,-84.80353,Shirley Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.61514,-82.56656,The Parks Gold Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.54542,-83.9727,Mary Henry Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.44933,-84.05601,Etowah Gold Mining Properties,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.54182,-83.9705,Yahoola Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.17593,-84.36242,T. N. Westbrook Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.51432,-83.966,Old Columbia Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.45623,-84.0071,Belle Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.46073,-84.03521,Cleveland Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52482,-83.9888,Bowen Lot,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.74652,-83.68799,Glen Comyn Gold Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52432,-83.9718,Griscom Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47073,-84.03271,Topabri Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.67512,-83.7485,Yonah Vein Lot 92,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.72652,-84.23321,Wade Allenis Gold Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.53592,-83.9674,Singleton Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11953,-84.67683,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.56572,-83.9138,Cora Lee Prospect,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.17903,-84.43742,Worley Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.69732,-83.738,Reaves Property,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.97731,-83.17458,Hedden Placer Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.12263,-84.66823,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.69594,-85.28354,Royal Mine,Past Producer,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+34.58432,-83.8955,Garnet Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.70482,-83.7332,Conley Vein,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.54232,-83.998,Rider Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.91091,-83.22018,Lamar Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.92346,-85.12664,Rockford Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.50932,-83.9485,Dry Hollow Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.26323,-84.32601,Richards Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52072,-83.9402,Beers Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.55482,-83.9538,Boyd's Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.11733,-84.68633,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.19263,-84.54132,Sixes Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.53652,-83.9693,Hand Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11343,-84.63432,Georgiana Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.27903,-84.39072,Frank Burt Prospect,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.93571,-83.19708,Page Branch Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.49202,-83.9821,Calhoun Mine,Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.49152,-83.9996,Mcafee-Lynn Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.10153,-84.67213,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.05233,-84.64682,Randall Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.20823,-84.11961,Davis Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.98261,-83.9346,Wellborn Hill Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.50232,-83.9593,Chestatee Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.19623,-84.52772,La Belle Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.11343,-84.62852,Tripp Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52292,-83.9796,Columbia Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.70402,-83.68799,Childs Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.69732,-83.738,Deans Vein,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+33.69844,-82.81177,Stoney Ridge Gold Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.80842,-83.9563,Coosa Creek Gold Mine,Past Producer,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.17123,-84.52552,Three-O-One Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.55732,-83.9668,Crisson Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52432,-83.9688,Bast Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11793,-84.68413,Unnamed Gold Mine,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.99951,-83.16178,Ammons Branch Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.27543,-84.32601,Sandow Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52542,-83.9668,Findley Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.77654,-82.57296,Chambers Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.45373,-84.04711,Gold Hill Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.92041,-83.19818,H.W. Bartley Property,Occurrence,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.46433,-84.03381,Josephine Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.77574,-82.56296,Magruder Mine,Past Producer,1,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.27703,-84.40162,Lot 208 Shaft,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.27593,-84.39572,Latham Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.53482,-83.9724,Free Jim Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.19623,-84.52352,J. C. Casteel Prospect,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.48482,-84.02431,Whim Hill Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.61544,-82.56706,Columbia Gold Mine,Past Producer,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.52652,-84.0127,Gordon Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.20703,-84.37772,Rudicil Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47343,-84.53772,Betz Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.10433,-84.65932,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09293,-84.05631,Level Creek Gold Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.05403,-84.65462,House Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.19233,-84.53572,Coggins Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.52292,-83.9849,Crown Mountain Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09873,-84.71353,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.97324,-84.70023,W. H. Hadaway Prospect,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.16873,-84.53412,Putnam Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.66342,-83.736,Thompson Vein,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.48542,-83.991,Turkey Hill Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+32.89706,-85.13554,Rockford Placer,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.30013,-84.28321,Creighton Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.07373,-84.63852,Kendrick Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.04824,-84.65272,Freeman Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11873,-84.67303,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09703,-84.66102,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.12263,-84.66963,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.12263,-84.66683,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.29703,-84.29741,Cox Prospect,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.12653,-84.66633,Unnamed Gold Deposit,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.92731,-83.21298,Hamby Mine,Past Producer,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.46343,-84.0116,Norrell Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.54072,-83.981,Lawrence Mine,Past Producer,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.37093,-84.14131,Kin Mori Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.46703,-84.03101,Wells Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.52292,-83.976,Preacher Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.98341,-83.9193,Wellborn Hill,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98341,-83.9193,Hunt Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.94731,-83.66659,Skeet Hooper,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.94731,-83.66659,Eller Mine,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.94181,-83.63179,Chastain (Branch) Mine,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.94181,-83.63179,Smith Mine,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.90572,-83.9166,Ross Mine,Unknown,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.98341,-83.9193,Brown,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.90572,-83.9166,Lot 184 Mine,Unknown,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.63072,-83.7763,Will Hood,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Old T. Leadford,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Oliver,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Mingo,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Glover,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Flennigen,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Bells,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.63072,-83.7763,Cox Bottom Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.70842,-83.68459,Jones,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.70842,-83.68459,Franklin & Glenn,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.70842,-83.68459,Monroe Lowlands,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.70842,-83.68459,York,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.70842,-83.68459,Stovall Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.68622,-83.7388,Frazier,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Franco-American,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.70842,-83.68459,Childs Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.68622,-83.7388,Hamby,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Martin,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Plattsburg (England),Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Richardson,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Thompson,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,White-Mcghee Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.68622,-83.7388,Gayton Plac,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.50842,-83.64159,Crow (L.W. Bowen) Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.58542,-83.63319,"Elrod, T.",Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.80572,-83.59429,Hood,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.80572,-83.59429,M.F. Wilson,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.80572,-83.59429,Robert Brooks Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.77512,-83.60549,Kennedy Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.77512,-83.60549,Soque River Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.50842,-83.64159,J. Loudermilk (J. Perkins),Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.77512,-83.60549,U.S. Forest Service Lands Placers,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.77512,-83.60549,"Wilson, Fred Placers",Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.93481,-83.49429,Barclay Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.93481,-83.49429,Bentley Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.83622,-83.58319,Smith Property,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.83622,-83.58319,Stonesypher Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.92511,-83.22488,Ledford Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.77512,-83.60549,Williams Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.61822,-83.8235,Atkinson,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Blake (Sprague),Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Poland,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Matthews Lot,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Lewis,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Henderson,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.92511,-83.22488,Lamar Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.61822,-83.8235,Loud Mine,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.61822,-83.8235,Old Courtney Placer,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.56952,-83.9221,Cora Lee Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.56952,-83.9221,Garnet,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.56952,-83.9221,Jumbo,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.56952,-83.9221,R.C. Wood,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.61822,-83.8235,Etries,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.87512,-83.9499,Legal Tender Mine,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.95011,-83.8541,Kerby Prospect,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.3384,-83.83269,O'Shields,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.34793,-83.8285,Merk,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35843,-83.8193,Longstreet Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35843,-83.8193,Pass,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Ellsworth,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Magic,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Baby Pl.,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Amicalola,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41403,-84.09991,Miller Pl.,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Hammond,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Church,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Shelton,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Proctor's,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Morse,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,G.E. Russell,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.42513,-84.06241,Cooper,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.74182,-84.41662,Holt,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.74182,-84.41662,Turkey Pen,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.74182,-84.41662,Whitaker,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.93622,-84.08601,Teague,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.05983,-84.64572,Garrison,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.07091,-84.6484,Hamilton,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.01977,-84.30875,Mason (Gold),Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.01954,-84.30821,Lizzard Lope,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.01609,-84.18436,Mcclure,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.93622,-84.08601,Stannick,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.34183,-83.06098,Winter Property,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.97231,-83.886,Welsh Post Office,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.97231,-83.886,Struby,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.97231,-83.886,E.R. Brown Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.97231,-83.886,Placer Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98341,-83.9193,Horse Vein,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98341,-83.9193,Old Field Mine,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98341,-83.9193,N. Brown (Brown Shaft ?),Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.98341,-83.9193,Pittsburg,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.20433,-84.48322,Mcgill,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.20573,-84.37492,Morgan,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.25843,-84.35962,F. Burt's,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.25843,-84.35962,Burty No. 2,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.10983,-84.65822,Granville,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.10983,-84.65822,Eiseman,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.05843,-84.38602,Nunnaly,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.12248,-84.65782,Stansill,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.12812,-84.6696,W.M. Going,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.10983,-84.65822,Robertson,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11683,-84.68053,Avery Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09593,-84.59572,Williams,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09593,-84.59572,Old Bell Cut,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.09593,-84.59572,Kitchens Property,Past Producer,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.38483,-84.33181,Richards,Prospect,1,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.11477,-84.63201,Tripp,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11823,-84.58052,Cox,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.13107,-84.58927,W. Poor's,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11823,-84.58052,Evans,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.18553,-84.56169,Sixes Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.18763,-84.55492,Labelle Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.18763,-84.55492,Culp Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.18763,-84.55492,Farrar Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.18625,-84.55299,Coggins,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.18763,-84.55492,Haynes No. 2,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.01404,-84.86383,N.Dockery,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.00648,-84.87213,Hodges,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.00542,-84.86349,Hobbs,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.01404,-84.86383,T.Willery,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.00024,-84.87661,Michigan Au Mining Company,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.18763,-84.55492,Casteel Mine,Prospect,1,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.03047,-84.85204,Russell,Prospect,1,OK,sedimentary,443.8,358.9,Silurian-Devonian sedimentary,7
+34.04454,-84.83463,Merrit Prospect,Prospect,1,OK,sedimentary,443.8,358.9,Silurian-Devonian sedimentary,7
+34.47872,-84.04071,Barlow,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47872,-84.04071,Belle,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47872,-84.04071,Josephine (Auraria),Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47872,-84.04071,Whim Hill,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.47872,-84.04071,Gordon,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.21075,-84.81383,Post,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.21075,-84.81383,Wilkes,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.71404,-84.93183,S. Klondyke Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.66544,-82.43736,Paschal,Prospect,1,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.66544,-82.43736,Julia Or Phelps Mine,Prospect,1,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.61684,-82.54986,Tatham,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.61684,-82.54986,Porter,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.61684,-82.54986,Landers,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.61684,-82.54986,Woodall,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.56684,-82.64987,Wilson & Watson,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.56684,-82.64987,Sellers,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.56684,-82.64987,Taylor,Prospect,1,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.20013,-84.09991,Lyons,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.20013,-84.09991,Zamoda Au Prospect,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Dean,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Stowe,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Mammoth Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Brenau College,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.31123,-83.8166,Currahee Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41953,-83.9166,Odom,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41953,-83.9166,Potosi,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41953,-83.9166,Big Joe Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37513,-83.8749,Stephens,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37513,-83.8749,Keath,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37513,-83.8749,Ivy Mtn.,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37513,-83.8749,Prater Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.41823,-83.7457,Deavours Mine,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.11953,-83.08878,O. Threlkeld Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.11953,-83.08878,J. Threlkeld Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.11953,-83.08878,Webb Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.13623,-83.07488,King Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.13623,-83.07488,Parham Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.37513,-83.8749,Newton,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.13623,-83.07488,Carrington Placer,Prospect,1,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.05426,-84.12029,Collins,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.73344,-84.96663,Lassetter,Prospect,1,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+34.35573,-84.16931,Barrett,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.34668,-84.17444,Barrett Au,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35573,-84.16931,Vandiviere,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35573,-84.16931,Hayes,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.35573,-84.16931,Crawford,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.66342,-83.736,Thompson,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.73097,-84.96215,Hart,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.37125,-84.14535,Mcguire,Prospect,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.75012,-83.49989,Habersham County Occurrences,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.66682,-83.7499,White County Occurrences,Occurrence,1,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
