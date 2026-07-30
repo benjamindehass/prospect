@@ -22,5 +22,12 @@ cache/
 notes/
 scratch/
 
+# Interactive folium maps: ~2MB each and fully regenerable via
+# scripts/render_map.py. The committed PNG is the one the README shows.
+outputs/*.html
+
+# Grid fetch checkpoints (resumption only; the featurized grid is committed)
+data/processed/*_raw.csv
+
 # Secrets (none expected, but never risk it)
 .env

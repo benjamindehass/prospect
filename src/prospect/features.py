@@ -121,3 +121,24 @@ def age_features(b_age: float | None, t_age: float | None) -> dict[str, float]:
     if b_age is None or t_age is None:
         return {"age_mid": float("nan"), "age_span": float("nan")}
     return {"age_mid": (b_age + t_age) / 2.0, "age_span": b_age - t_age}
+
+
+def add_features(df):
+    """Attach every derived feature to a frame carrying lith/b_age/t_age.
+
+    Training rows and grid cells MUST both come through here. If the grid were
+    featurized by any other code path, the model would be scoring a different
+    feature definition than it was fitted on -- train/serve skew, which is
+    invisible in the metrics and fatal to the map. This function existing in
+    one place is the guarantee (DECISION #12).
+    """
+    import pandas as pd
+
+    ages = pd.DataFrame(
+        [age_features(b, t) for b, t in
+         zip(df["b_age"].where(df["b_age"].notna(), None),
+             df["t_age"].where(df["t_age"].notna(), None))],
+        index=df.index,
+    )
+    liths = pd.DataFrame([lith_flags(v) for v in df["lith"]], index=df.index)
+    return pd.concat([df, ages, liths], axis=1)

@@ -27,10 +27,19 @@ def _query(lat: float, lng: float, scale: str | None = None, timeout: int = 10) 
 
 
 def _fetch_geology(lat: float, lng: float, retries: int) -> dict:
-    """The uncached lookup: retry loop, unit selection, status assignment."""
+    """The uncached lookup: retry loop, unit selection, status assignment.
+
+    DECISION #17: one unscaled query, not scale="large" with an unscaled
+    fallback. scale="large" returns zero units for every Georgia point tested,
+    so the old two-call form always paid twice and always used the second
+    answer. The unscaled query returns every unit at the point and #2's
+    smallest-age-span heuristic already picks the most specific one, so this
+    is feature-identical at half the request cost -- which matters when the
+    API is answering in ~20s.
+    """
     for attempt in range(retries + 1):
         try:
-            data = _query(lat, lng, scale="large") or _query(lat, lng)
+            data = _query(lat, lng)
 
             if not data:
                 return {"status": "NO_COVERAGE"}

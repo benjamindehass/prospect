@@ -149,7 +149,39 @@ mining, mindat), the weight vector stops being constant and this flips.
 REJECTED: adopting it anyway "because it is more principled" — unfalsifiable
 complexity; enabling it silently and claiming rigour in the README.
 
-12 RESERVED — point-API vs bulk Macrostrat for the grid (Session E).
+12 [7/29] Grid featurization: point API, not bulk [AUTONOMOUS]:
+CLAUDE.md says "at grid scale, prefer bulk map data over point queries," so I
+went looking for bulk and am overriding that guidance with a reason.
+WHAT BULK ACTUALLY EXISTS (probed, not assumed):
+  /api/v2/defs/sources           returns [] — empty for a GA bbox and for
+                                 ?all. Effectively dead.
+  geologic_units/map?source_id=  HTTP 500 "No valid parameters passed"
+  geologic_units/map + bbox      HTTP 500 — no bbox mode on this endpoint
+  tiles.macrostrat.org carto MVT WORKS: 100KB of real polygons per tile
+So the only working bulk route is vector tiles.
+CHOSEN: point API anyway, with the cache doing the heavy lifting.
+THE DECIDING ARGUMENT is train/serve skew, not effort. The training table's
+features came from geologic_units/map point queries resolved by D2's
+smallest-age-span heuristic. MVT tiles carry a different, zoom-simplified
+attribute set and would need their own unit-selection logic — so grid cells
+would be featurized by a DIFFERENT definition than the model was fitted on.
+That error is invisible in every metric I compute (CV runs on training rows
+only) and it corrupts the map silently. Paying 18 minutes of wall clock to
+keep one code path is cheap insurance. features.add_features() is now the
+single shared entry point for both, which is what makes the guarantee real.
+COST CONTROL: grids snap to a global origin, so a 0.1deg grid is a strict
+SUBSET of a 0.05deg grid and the cache compounds across resolutions instead
+of being discarded. 0.4s sleep on cache misses only; hits are free. Partial
+results flush every 250 cells, so a killed run resumes.
+RESOLUTION: 0.1deg (~9x11km, 1462 GA cells, ~18 min) for v0. 0.05deg (5855
+cells, ~73 min) is the unattended refinement and reuses every cached cell.
+0.2deg (363 cells) rejected as too coarse to point a truck at.
+ROADMAP's "150k points ~ 35 days" assumed a much finer grid than v0 needs;
+at 0.1deg the API is simply not the bottleneck it was budgeted to be.
+REJECTED: MVT tiles (train/serve skew, plus a protobuf dependency and
+zoom-dependent geometry simplification); downloading source shapefiles
+(same skew, plus per-source ETL); 0.02deg (37k cells, ~8 hours, and finer
+than the map units underneath it — false precision).
 
 13 [7/29] Collapse duplicate coordinates [AUTONOMOUS]:
 509 gold records occupy only 345 distinct coordinates — MRDS logs one
@@ -276,3 +308,61 @@ on the question); leave-one-out (maximal leakage on autocorrelated data);
 buffered leave-one-out (defensible, but ~854 fits per config for a curve
 this one already shows); quoting 0.919 alone in the README (it is inflated by
 303 trivially-negative Coastal Plain points).
+
+17 [7/29] Macrostrat throughput: one query, eight workers [AUTONOMOUS]:
+Grid featurization was budgeted at ~18 min and was running at 75 SECONDS PER
+CELL. Two independent causes, both found by measuring rather than guessing.
+(a) THE WASTED QUERY. geology.py did `_query(scale="large") or _query()`.
+    scale="large" returns ZERO units for every Georgia point tested, so the
+    old form always paid for two requests and always used the second answer.
+    Removed. The unscaled query returns every unit at the point and D2's
+    smallest-age-span heuristic already selects the most specific one.
+    VERIFIED feature-identical on 6 committed training points with the cache
+    bypassed — all 6 matched lith, unit_name and map_source exactly, so this
+    introduces no train/serve skew and does not invalidate Sessions A-D.
+(b) THE LATENCY. Macrostrat was answering in 15-22s per point, up from ~0.3s
+    when Sessions A/B ran. Measured 1, 4 and 8 concurrent workers: per-request
+    latency stayed flat at ~21.7s in all three, and throughput scaled linearly
+    (0.05 -> 0.18 -> 0.37 pts/s). Flat latency under load means the cost is
+    their spatial query, NOT a rate limit aimed at us.
+CHOSEN: drop the wasted query, fetch cache misses through an 8-worker pool,
+and delete the per-call sleep. The worker cap IS the politeness knob now:
+8 concurrent connections at ~0.37-0.75 req/s is gentler in requests-per-second
+than the old serial loop would have been at healthy latency. This amends
+CLAUDE.md's "sleep between calls" — the intent was bounded request rate, and
+a bounded pool bounds it more honestly than a sleep does.
+RESULT: 0.2deg grid (363 cells) in 8 minutes, 363/363 OK, zero misses.
+REJECTED: more than 8 workers (linear scaling means it would keep working,
+which is exactly why restraint has to be chosen rather than discovered);
+raising the 10s request timeout instead (the retry path already recovers, and
+a longer timeout hides degradation instead of surviving it); giving up and
+switching to vector tiles (would reintroduce the D12 skew for a problem that
+turned out to be two fixable inefficiencies).
+
+18 [7/29] The resolution ceiling, and ranking by unit [AUTONOMOUS]:
+The v0 map has a hard limit that no finer grid can fix. Every feature the
+model sees (lith, b_age, t_age) is an attribute of a MAP UNIT, not of a
+point. So all cells inside one unit get a byte-identical feature vector and
+therefore an identical probability. Measured on the 0.2deg grid: 363 cells
+produce only 28 distinct probabilities, and 230 of them sit at exactly 0.002.
+The top ten cells by probability were all tied at 0.920 in the same unit.
+CONSEQUENCE for master 2: a ranked list of CELLS is false precision — the
+ordering inside a plateau is arbitrary, an artifact of sort stability. The
+model's real spatial resolution is the geologic map's polygon boundaries.
+CHOSEN: report the "go look here" list as ranked MAP UNITS with a cell count
+and a centroid, not as ranked cells. The heatmap still renders per-cell
+because plateaus are the honest picture of what the model knows.
+CONSEQUENCE for grid choice: this also caps the value of resolution. 0.1deg
+is worth it (unit boundaries land inside 0.2deg cells), 0.05deg buys little,
+0.02deg would be finer than the polygons underneath it — false precision at
+8 hours of API cost. Retroactively justifies D12's rejection of 0.02deg for
+a better reason than runtime.
+WHAT WOULD ACTUALLY RAISE THE CEILING (v1): features that vary WITHIN a unit
+— distance to unit contacts (gold favours contacts), distance to mapped
+faults, structural trend, geochemistry, stream-sediment anomalies. Those are
+per-point, so they would break the plateaus. This is the highest-value v1
+item, above finer lith vocabulary.
+REJECTED: breaking ties by distance to known occurrences (circular — it would
+rank ground high for being near the labels, then get read as independent
+evidence); jittering scores to fake a ranking (fabricated precision);
+presenting the tied cell list as-is (would invite exactly that misreading).

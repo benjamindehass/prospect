@@ -67,17 +67,6 @@ def collapse_duplicate_coords(df: pd.DataFrame) -> pd.DataFrame:
     return kept.drop(columns=["_lat_r", "_lng_r", "_rank"])
 
 
-def featurize(df: pd.DataFrame) -> pd.DataFrame:
-    ages = pd.DataFrame(
-        [features.age_features(b, t) for b, t in
-         zip(df["b_age"].where(df["b_age"].notna(), None),
-             df["t_age"].where(df["t_age"].notna(), None))],
-        index=df.index,
-    )
-    liths = pd.DataFrame([features.lith_flags(v) for v in df["lith"]], index=df.index)
-    return pd.concat([df, ages, liths], axis=1)
-
-
 def main() -> int:
     pos = pd.read_csv(PROCESSED / "positives_gold.csv")
     neg = pd.read_csv(PROCESSED / "pseudo_absences.csv")
@@ -92,7 +81,8 @@ def main() -> int:
     neg = collapse_duplicate_coords(neg)
     print(f"deduped  positives={len(pos)}  negatives={len(neg)}")
 
-    df = featurize(pd.concat([pos, neg], ignore_index=True))
+    # Same add_features the grid uses -- see features.add_features / D12.
+    df = features.add_features(pd.concat([pos, neg], ignore_index=True))
 
     fatal, advisory = checks.run_all(df, features.FEATURE_COLUMNS,
                                      features.BLOCKED_FROM_FEATURES)
