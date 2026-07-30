@@ -18,5 +18,9 @@ Thumbs.db
 cache/
 *.log
 
+# Working notes / throwaway analysis. Not part of the record.
+notes/
+scratch/
+
 # Secrets (none expected, but never risk it)
 .env

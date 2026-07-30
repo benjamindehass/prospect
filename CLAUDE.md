@@ -41,3 +41,13 @@ Mon + Thu evenings, some Saturdays. Ugly end-to-end by Labor Day (data → model
 - Sep 15 — honest spatial CV, README solid, deployed publicly
 - Oct 1 — v0 shipped, resume bullets written
 - Fall — field validation trip + writeup
+
+## Learning protocol (non-negotiable)
+
+- This is a learning project. Explain before implementing.
+- At each ⟡ DECISION point, present options and the knowledge behind them;
+  I choose and write the DECISIONS.md entry in my own words. Do not decide for me.
+- Before writing any non-trivial code, tell me what it will do and why.
+- End each session with a short quiz I must pass; wrong answers get explained
+  in depth and reshuffled until cleared. No new session content until passed.
+- Go slow on: spatial cross-validation (D10). This is the interview core.

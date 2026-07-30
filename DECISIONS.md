@@ -76,3 +76,128 @@ fall near a known positive — gold's rarity showing up as a number.
 This is a verified PRECONDITION, not a preference: it would be INVALID
 for a common target (e.g. granite), where random negatives would be
 heavily contaminated. Tripwire logged for any future abundant-target work.
+
+---
+Entries below marked [AUTONOMOUS] were decided by Claude on 2026-07-29
+under an explicit instruction to build to v0 without per-decision input.
+They are recorded as such so the repo never overstates who reasoned what.
+Rewriting any of them in your own words is a real amendment, not a formality.
+---
+
+7 [7/29] Numbering + provenance convention [AUTONOMOUS]:
+Entries 7 and 8 were vacant while ROADMAP referenced "#8 lith encoding"
+and "#10 spatial CV" — but 10 was already spent on pseudo-absence design,
+and commit dbff8f6 called the buffer "D7" when it is really 10(b).
+Numbers are load-bearing: geology.py's docstring cites #1-#4, so
+renumbering existing entries would silently falsify code comments.
+RESOLUTION: existing 1-6, 9, 10 are frozen. 7 = this convention. 8 = lith
+encoding (honours ROADMAP's slot). 11 and 12 stay RESERVED for ROADMAP's
+dev_stat-weight and point-vs-bulk decisions. Spatial CV becomes 16 — so
+CLAUDE.md's "go slow on spatial CV (D10)" means entry 16; CLAUDE.md is
+yours to amend, so I left it alone and noted the mapping here.
+REJECTED: renumbering to close the gaps (breaks code comments and commit
+messages for cosmetic tidiness).
+
+8 [7/29] Lith encoding: keyword flags on normalised tokens [AUTONOMOUS]:
+Macrostrat returns lith in three incompatible vocabularies by map source:
+  7   "plutonic: undivided granitic rocks"     (coarse, 3 rock classes)
+  133 "Major:{biotite gneiss}, Minor:{...}"    (structured, detailed)
+  154 "felsic paragneiss; paragneiss/meta..."  (free text)
+And map source is CLASS-CORRELATED here (source 133 = 240 neg / 1 pos).
+So one-hot / label-encode / hashing on the raw string does not encode
+rock — it encodes WHICH MAP COVERED THE POINT, and via that, the label.
+CHOSEN: strip Major/Minor wrappers, split to word tokens, set 0/1 flags
+against geologically-motivated vocabularies (10 flags: 5 rock classes +
+5 gold-host flags for the Dahlonega quartz-in-schist/gneiss model).
+Token matching not substring, so "sand" cannot fire on "sandstone".
+Keyword lists were written from rock nomenclature, NOT by checking which
+tokens separate the classes — choosing keywords by looking at labels
+would fit the encoding to the training set.
+EMPIRICAL OUTCOME (recorded because it is bad news, see NOTE):
+  lith_unconsolidated  36.7% of neg, 0.0% of pos   <- the only real signal
+  lith_sedimentary     63.3% of neg, 88.4% of pos
+  lith_metamorphic      5.3% / 5.2%   — no signal
+  lith_schist           1 row of 854.  lith_quartz: 0 rows.
+NOTE: the gold-host flags are dead on arrival. Source 7 covers ~87% of
+positives and its vocabulary contains no metamorphic terms at all — it
+calls Georgia's gold-belt metasediments "sedimentary". You cannot flag
+schist off a map that never says schist. This is a DATA RESOLUTION
+problem, not an encoding problem; the encoding is doing its job.
+FUTURE (v1): Major-vs-minor weighting; Macrostrat liths IDs instead of
+strings; and above all a finer lith source for the Piedmont/Blue Ridge
+(GA Geological Survey map, or coarser-scale Macrostrat queries).
+REJECTED: one-hot on raw lith (encodes map_source -> label leak);
+dropping lith entirely (unconsolidated flag does carry real signal).
+
+11 RESERVED — dev_stat as sample_weight, + sensitivity test (Session D).
+
+12 RESERVED — point-API vs bulk Macrostrat for the grid (Session E).
+
+13 [7/29] Collapse duplicate coordinates [AUTONOMOUS]:
+509 gold records occupy only 345 distinct coordinates — MRDS logs one
+record per claim/shaft/report, so 164 rows are repeat visits to ground
+already in the table. Their Macrostrat features are byte-identical.
+Keeping them would (a) let one location vote up to N times in the loss
+and (b) place the same point in a train fold and a test fold, which is
+precisely the leak spatial CV exists to prevent. Deduping BEFORE the
+model is the only place this can be fixed honestly.
+CHOSEN: one row per coordinate at 4dp (~11m, matching cache key
+precision). When records collide, keep the highest-trust dev_stat rung
+(D6's gradient: Producer > Past Producer > Prospect > Occurrence >
+Unknown) rather than an arbitrary first row. Multiplicity survives as
+n_mrds_records — real evidence of attestation, kept as metadata.
+CONSEQUENCE: breaks D10(a)'s 1:1 balance. Table is 345 pos / 509 neg
+(1:1.48). Accepted: honest N beats a round ratio, and 1.48:1 needs no
+imbalance handling. D10(a)'s ratio experiment is unaffected.
+REJECTED: keeping duplicates (CV leakage, silent vote-stuffing);
+deduping by site_name (465 unique names on 345 points — names differ for
+the same ground); averaging duplicates (identical features, nothing to
+average).
+
+14 [7/29] The feature contract [AUTONOMOUS]:
+An explicit allowlist of what may enter X, and a blocklist with a reason
+per column, enforced in code (features.BLOCKED_FROM_FEATURES, asserted by
+checks.check_feature_contract — a fatal, not a warning).
+IN X (13): b_age, t_age, age_mid, 10 lith_* flags.
+BLOCKED, and why:
+  map_source     pure provenance; 240 neg / 1 pos on source 133 alone.
+  age_span       D2 invented span to CHOOSE a map, not to predict. Median
+                 514.6 (src 7) vs 1.12 (src 133) — it is a provenance
+                 proxy in a geology costume. This narrows D2's scope:
+                 span stays a selection criterion, never a feature.
+  lat, lng       raw coords let the model memorise locations instead of
+                 learning geology — defeats the point of spatial CV.
+  unit_name      near-unique free text; encodes map_source.
+  lith           raw string; superseded by the flags, same leak.
+  dev_stat       positives-only. A sample weight (D6, D11), not a feature.
+  n_mrds_records positives-only, 0 for all negatives — a perfect leak.
+REJECTED: lat/lng as features (common in tutorials, fatal here);
+age_span as a feature (would have bought ~free AUC off map provenance —
+the single most tempting mistake available in this dataset).
+
+15 [7/29] Validation layer: deterministic tripwires [AUTONOMOUS]:
+Asked for a multi-agent "critic / idea man" review board. Declined and
+built this instead. Reasoning: every persona in such a board is the same
+model with the same priors, so they agree exactly where the model is
+wrong — it yields the FEELING of review with none of the coverage. The
+four real problems in this session (stale counts, 164 duplicate coords,
+map_source class-correlation, age_span provenance) were all found by
+reading the data, and none are visible from the plan a persona would
+critique.
+CHOSEN: src/prospect/checks.py — functions that each answer a question
+with a right answer, returning (fatal, advisory). Fatal aborts the build:
+blocked feature in X, missing column, duplicate coords, non-binary or
+single-class labels, non-OK rows surviving the filter. Advisory prints:
+per-feature univariate AUC over a 0.90 threshold, and null counts.
+The univariate-AUC tripwire is the load-bearing one — it is how a
+provenance proxy gets caught automatically instead of by luck. It is
+deliberately advisory, not fatal: a feature CAN legitimately separate
+the classes (old crystalline rock really does host Georgia gold), so it
+demands judgement rather than silently dropping the column.
+REJECTED: persona subagents (theatre, and cost per spawn for zero
+marginal coverage); making high-AUC fatal (would auto-delete real
+geology); unit tests only (they check code, not datasets — the bugs
+here live in the data).
+
+16 RESERVED — spatial cross-validation (Session D). CLAUDE.md calls this
+"D10"; see entry 7. INTERVIEW CORE, go slow.
