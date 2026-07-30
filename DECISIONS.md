@@ -45,3 +45,34 @@ REJECTED: keeping garnet on 11 points (untrainable); building an
 external garnet label pipeline now (deadline risk); MICA as target
 (249 records, viable runner-up — gold beat it on N, trust mix, and
 field-validation story).
+
+10 [7/17] Pseudo-absence design (Decision):
+(a) COUNT — 1:1 with positives (~479 negatives) for v0 simplicity:
+balanced classes, intuitive metrics, no imbalance handling needed.
+Cost accepted: thinner coverage of background geology. REVISIT: ratio
+(1:1 -> 2:1/3:1) is a MODELING tuning experiment, orthogonal to the
+v1/v2 roadmap (v1 = GA depth: better features, gangue-garnet & other
+GA-specific labels, finer grid; v2 = breadth: more states, the
+"GA-is-an-instance" payoff).
+(b) BUFFER — exclude sampled negatives within 0.01° (~1.1km) of a known
+positive. Sized empirically via a 1000-point test:
+0.005° (~0.6km): 3/1000 excluded
+0.01° (~1.1km): 4/1000 excluded <- CHOSEN (elbow)
+0.02° (~2.2km): 24/1000 excluded
+0.05° (~5.6km): 73/1000 excluded
+0.01° sits at the elbow: it removes the obvious "on top of a mine"
+darts while the next step up (2.2km) 6x's the cull for little added
+correctness -> that's moat-carving, avoided. Distance computed in
+degrees (Euclidean on EPSG:4326) — an APPROXIMATION (1°lng ~93km at
+33°N, not 111km); acceptable because a buffer radius is inherently
+fuzzy. Projection-to-meters (UTM) is the fix if precision matters.
+REJECTED: no buffer (leaves hard false negatives contradicting
+positives); large buffer (rigged class separation -> spatial leakage,
+inflated metrics).
+(c) BASE-RATE VALIDITY — this method holds ONLY because gold-ground is a
+small fraction of GA area, so random points are ~reliably barren.
+The data confirms it: even with NO buffer, only ~4/1000 random points
+fall near a known positive — gold's rarity showing up as a number.
+This is a verified PRECONDITION, not a preference: it would be INVALID
+for a common target (e.g. granite), where random negatives would be
+heavily contaminated. Tripwire logged for any future abundant-target work.

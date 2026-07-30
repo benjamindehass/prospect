@@ -1,0 +1,510 @@
+lat,lng,label,status,lith,b_age,t_age,unit_name,map_source
+33.14783078846276,-82.19310116910482,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+32.38907819584911,-83.90358525117453,0,OK,sedimentary,66.0,56.0,Paleocene sedimentary,7
+34.257995093456564,-84.45696015948138,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.439920245678046,-83.03983469755062,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.28094384103872,-84.7277808519374,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.306442311452656,-83.24516306195275,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.18659990357585,-84.8786945600844,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.37718903845151,-84.8352772711167,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.85351575061372,-82.68805101197411,0,OK,sedimentary,2.588,0.0,Quaternary sedimentary,7
+33.10675306355987,-84.34828069545945,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.31235869473354,-85.40026366991606,0,OK,"Major:{sandstone,shale}",440.8,426.3,Red Mountain Formation,133
+32.79468112749214,-82.9928045738628,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+33.21348087356604,-84.41106709315967,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.27803790043021,-83.44780407491913,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+34.517081304284524,-85.18711315175904,0,OK,"Major:{sandstone,shale,conglomerate}",323.2,298.9,Pennsylvanian undifferentiated,133
+31.240540375866,-82.16846638521376,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.4650017007335,-84.54882530947704,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+33.90071467568913,-84.6837249515081,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+31.47571514519357,-84.10483612012357,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.82624375284979,-81.810171068325,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+31.499125846362364,-82.49870328913205,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.42421705052852,-83.31791953433695,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.09669723301567,-83.17094420055967,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.40504504752747,-82.55391447761944,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+32.31591668346225,-83.0029266416565,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.95148347768163,-85.014236996269,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+30.916384847755797,-83.73391205322044,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+34.15066758359199,-84.11223615444736,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+31.633323879651435,-81.57018243766603,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+32.908327016207856,-83.80006090948777,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.91001678913635,-81.69062930774022,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+33.15614838652498,-83.4972728140455,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.14081417835737,-84.96057542569496,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.76039370361275,-83.31539947959989,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.030744381556918,-84.36728169661697,0,OK,Major:{limestone},36.045,33.9,Ocala Limestone,133
+34.63869400743409,-84.45451846295785,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+32.73970010482302,-84.34212818140273,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.25335547581661,-83.85780242829472,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.017809091226404,-82.18633725846115,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+32.694300350016064,-82.41734415043351,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.724508241087243,-82.99803426536707,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.95353408601211,-83.46769199613146,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+32.460151240333175,-81.65899476998723,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.706171262936024,-81.5567294073286,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+34.92840779210971,-84.20890289835228,0,OK,sedimentary,541.0,443.8,Cambrian-Ordovician sedimentary,7
+32.62371610818293,-83.72252445389395,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.05209276456262,-81.79296341693112,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+31.98303498716157,-80.9984742135722,0,OK,Major:{fine alluvium},0.0117,0.0,Holocene Shoreline Complex - marsh and lagoonal facies,133
+33.688606570066284,-82.2523840285985,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+31.167947297102845,-84.83541019876479,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+33.057293592018716,-82.81234725576768,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+34.69048604475432,-84.26475811662299,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+32.27837292641401,-82.29261444887632,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.29095813938282,-84.74269161665482,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.706618917594803,-82.52178181113132,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+32.2719999131453,-83.605581192543,0,OK,sedimentary,33.9,23.03,Oligocene sedimentary,7
+33.88155590117029,-84.7721899795928,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+32.04970407453827,-83.66781145066476,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+32.9377875992889,-82.87025250678973,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+33.55891537290879,-84.8607087719246,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.345699033833235,-83.45770673767545,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.2022281894378,-83.84471416227916,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.35964363397209,-84.29864895818363,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+32.97327058271971,-82.13034285778019,0,OK,Major:{clay},35.46,34.68,Twiggs Clay,133
+31.725590616606453,-84.12973903280286,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+34.19082720210375,-83.0356298103459,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.449884379134204,-82.66518225896479,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.695529280894846,-84.75639374764324,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+31.15536835618208,-81.62217910062148,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+33.20030344782043,-84.71674524290529,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.85603754843766,-84.56038181173442,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.70428750359007,-84.06515110871955,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+30.899752105015775,-82.78880605474738,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.15070114255643,-82.33292866614312,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+32.70809580286445,-82.46631873209442,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.24896527021904,-82.93820486083544,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+31.782601104228668,-84.14791569276633,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.3621725547459,-81.28152491531588,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.93167508127034,-85.15020687998107,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.92354823570628,-82.21263176336399,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+30.552230514043433,-82.13700179454818,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+32.398537558560065,-81.24382906010773,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+31.350692723235163,-83.13423893511197,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.614426508715965,-84.07270306394334,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+31.749229300992923,-81.93241818965868,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+31.171305647297785,-83.2212676645171,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+31.37709503798448,-81.9464881587259,0,OK,Major:{fine alluvium},2.588,0.0117,Penholoway shoreline complex - marsh and lagoonal facies,133
+32.57624247824012,-84.3287948136051,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+32.67971566018793,-81.48275012201164,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+32.97188555756629,-83.76954481248099,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.67353841981363,-84.87822239015543,0,OK,"Major:{shale,sandstone}",511.0,493.575,Conasauga Group; Lower unit; shale and sandstone unit,133
+31.895641744409453,-83.13333366910851,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.234826041101805,-83.3215294185888,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.643157447048576,-82.61851914669741,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.41521616210544,-83.56855594802452,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+30.766301254151895,-83.17357070455446,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.558513812177125,-83.17845748845045,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+30.649285565400017,-83.20825888875254,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+31.865802704216435,-82.22562541227155,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.09527323595784,-81.81378290151086,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+32.47166440967095,-83.74458719705582,0,OK,sedimentary,66.0,56.0,Paleocene sedimentary,7
+31.759084448360337,-83.08472019740921,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.96038228450623,-85.44562292572901,0,OK,sedimentary,358.9,323.2,Mississippian sedimentary,7
+34.72043499396636,-83.78026138412476,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+30.941308685396084,-83.34467359670411,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.285357919240504,-84.38914895290598,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+33.76373703481492,-82.31551741859546,0,OK,sedimentary,541.0,485.4,Cambrian sedimentary,7
+32.059060899501645,-83.53206454089619,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+33.823130745282626,-83.62454694927534,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+30.934328300899352,-84.41403136423277,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+31.89858742143325,-83.04251770664943,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.68453179327274,-83.51806068694937,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.263142088515494,-83.34672994470914,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.2453470512171,-82.83743675029785,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+31.24991284407922,-83.45660462601046,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.69909758534354,-83.10945357559721,0,OK,Major:{clay},35.46,34.68,Twiggs Clay,133
+32.811022366180865,-84.2699282205948,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.145150762946194,-83.7165948158137,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+33.48699246913834,-84.41930610675745,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+34.3798207152661,-83.67945472271883,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+32.821055474003984,-83.41552070778098,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+33.016145088790594,-82.2372268933677,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+33.52283804189397,-84.19926651745315,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+30.926243386689716,-81.8454941910205,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+33.491802775414044,-82.95804723609398,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.415115552456555,-82.48905529245947,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.957522416745558,-81.32249395601265,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+32.878629669221766,-84.99819726322549,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.55261763136391,-82.27255999756449,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.157247717963124,-83.29750437913407,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+32.48999043753775,-81.76077071487474,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+30.697657706378795,-82.15699186970727,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.452896269671285,-82.97329401176654,0,OK,Major:{clay},35.46,34.68,Twiggs Clay,133
+31.495947935292513,-81.62235093486801,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+34.82801689432081,-84.27199766348417,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+32.44148779613682,-81.39018675930198,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.09965111089553,-84.77130363074589,0,OK,Major:{sand},67.22,66.61,Providence Sand,133
+31.71765396346744,-84.62814257381451,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+30.927472130082,-81.76364368354209,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+32.96215170174181,-82.67754886015254,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+30.816455048953152,-82.04977003918596,0,OK,Major:{fine alluvium},2.588,0.0117,Penholoway shoreline complex - marsh and lagoonal facies,133
+30.83580158839166,-82.0264232505863,0,OK,Major:{sand},2.588,0.0117,Penholoway shoreline complex - barrier island facies,133
+32.58906501979616,-84.6995653582811,0,OK,"sand, mud, chalk, carbonate",96.87,85.625,Late Cretaceous sedimentary,7
+30.99694339784015,-83.46669817708512,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+31.253907172083714,-82.27328853973091,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.453191441823108,-83.90559978520824,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.07371902131431,-83.46408918336657,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.60859102876962,-85.06443346606109,0,OK,"Major:{sandstone,shale}",440.8,426.3,Red Mountain Formation,133
+32.242810373684854,-82.9009087728089,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.23854926664755,-84.72118175305636,0,OK,"Major:{clay,sand}, Minor:{limestone}, Incidental:{marl}",71.0833,70.0667,Ripley Formation,133
+33.666181605641576,-82.3699429496861,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+30.85789391664475,-82.34353975128505,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.389854989784425,-84.73926231777412,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.001924913554394,-84.01152055923818,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+31.719635086378318,-84.87704234601648,0,OK,"sand,mud,clay,chalk",56.8,49.85,Early Eocene sedimentary,7
+31.778464568024756,-84.56448151929932,0,OK,"Major:{sand}, Minor:{marl}",56.8,56.08,Tuscahoma Sand,133
+31.571161237548196,-81.44669591434851,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+32.49734663857044,-82.73102327745029,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.39028187598518,-84.76438186879739,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.72314841985332,-82.95280152417665,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.29329299094338,-84.3864246677091,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.583451008598985,-82.11582370219429,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.09129581831254,-84.78624408761219,0,OK,sedimentary,443.8,358.9,Silurian-Devonian sedimentary,7
+33.84841175436923,-83.77402562668803,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.15358139664148,-83.04647467442274,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+32.32156945525665,-82.48276744007431,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.338884961199355,-81.8742756207821,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.258669448598223,-81.65933630372564,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+33.3797663423194,-83.33577060081393,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.074555166560266,-83.18087406668292,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.076947323977777,-82.18402002622429,0,OK,sedimentary,2.588,0.0,Quaternary sedimentary,7
+34.47033200329825,-84.35039475254715,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+32.068793675975,-81.53370341253212,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+31.880330972382403,-84.67235501482193,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+34.61564079209451,-83.98390709533055,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+32.63496357791446,-84.89124346661453,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.79851318335733,-84.71531836779813,0,OK,"Major:{shale,sandstone}",511.0,493.575,Conasauga Group; Lower unit; shale and sandstone unit,133
+34.42194269020222,-83.07622379588824,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.3498226963749,-85.26852938795312,0,OK,"Major:{sandstone,shale,conglomerate}",323.2,298.9,Pennsylvanian undifferentiated,133
+33.87043358422171,-83.38873791355037,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.69962665589293,-84.27574271581982,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.80432900579018,-84.25608666878477,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+31.763235752502673,-81.71258148375715,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.11479953851516,-83.16644033503766,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.285245688002984,-83.59005965953916,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+30.879240093450818,-81.71946807010221,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+32.93412338033075,-81.99852458667326,0,OK,Major:{clay},35.46,34.68,Twiggs Clay,133
+33.183125187947745,-83.32515504676849,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.899927330912607,-81.76034888528238,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.43975227187467,-81.49563928921589,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+34.36353956287302,-84.59692377072305,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+33.897982365672,-83.67662507498109,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.96130176040915,-84.22764944410706,0,OK,sedimentary,541.0,443.8,Cambrian-Ordovician sedimentary,7
+31.478812811944668,-82.26976571803154,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+30.787638528225003,-83.91192917261816,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.93038127777862,-82.67235905453339,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.20591898482396,-84.9868996275868,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.91545826443132,-84.86055278539425,0,OK,"Major:{clay,sand}",64.9,56.8,"Nanafalia, Porters Creek, and Clayton Formations, undifferentiated",133
+33.29354120690915,-84.57411603504838,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.725559407542974,-82.72366619262245,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.522938337907835,-82.7944517063138,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+31.96892275307141,-81.7476925412801,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+33.32129570247224,-83.68513336652754,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.95995153890909,-83.48561735703865,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+32.19690833179581,-82.79733461031893,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.24718241806691,-83.35720653378158,0,OK,Major:{limestone},31.9667,28.1,Suwannee Limestone and its residuum,133
+31.88155030535135,-82.20377088799563,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.302612903083485,-83.93607039512503,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.03240815806018,-82.96778780705857,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.037596506721414,-83.9648499711644,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.39058157125342,-83.12578337452916,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.954279454898188,-81.8026767588526,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+33.91395027861488,-84.3730393440936,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+31.104631004955902,-82.65253436070144,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+32.01930359984724,-81.15124627854004,0,OK,Major:{sand},2.588,0.0117,Pamlico shoreline complex - barrier island facies,133
+33.44967143911846,-83.71376042885787,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.64467595241384,-82.98056944327543,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.935136033059045,-82.65795252213263,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.391779054145694,-84.64481409347552,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+33.0623011541295,-82.97993691549843,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+30.680179236216265,-82.07232889477935,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+33.45118028998033,-85.12025996869004,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.59827205356645,-85.28297006670803,0,OK,"Major:{limestone,shale}",511.0,497.85,Conasauga Group; Middle unit; Shale unit,133
+33.855059673415404,-83.34638810507795,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.38043945740927,-85.27014740101288,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.557139214101625,-85.51829782042604,0,OK,"Major:{sandstone,shale,conglomerate}",323.2,298.9,Pennsylvanian undifferentiated,133
+34.66834584367325,-85.48629443422689,0,OK,"sandstone,shale,coal",323.2,322.15,Bashkirian sedimentary,7
+33.12362961732682,-83.1690712096483,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+32.29261082617762,-81.7380793821035,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.04681081454834,-84.99800405422,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+34.16115595712234,-85.01142368129511,0,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+33.35100692274936,-82.89616033616787,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+30.716627544017605,-84.48879636709415,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+31.018076537531886,-82.12585208756026,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+32.344531186735566,-83.12944810750125,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.20362529425613,-84.73367028668164,0,OK,sedimentary,541.0,443.8,Cambrian-Ordovician sedimentary,7
+31.032711110948135,-82.47968814826832,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.13151642359328,-82.31005679006648,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+33.52366685797647,-84.10956194052523,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.544831076951862,-83.28872420837413,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.362679217343285,-84.4483748462031,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+34.20740143348957,-83.02337078596659,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.375295830627874,-82.46294390112847,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.235200375075873,-85.04229666029133,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.462915790767813,-83.34030235018368,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.97553584671299,-82.79979762723147,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+30.757178022896937,-84.9065369549808,0,OK,sedimentary rocks,66.0,0.0,Cenozoic sedimentary rocks,154
+31.24362907135704,-83.5469387472553,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+32.47306002108591,-84.25193777839868,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+34.677051256659965,-85.03897707138795,0,OK,"Major:{sandstone,shale}",440.8,426.3,Red Mountain Formation,133
+32.96687060539736,-83.16539425197847,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+32.15799160662514,-84.81595864882243,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+32.51104483332879,-84.79659526331407,0,OK,"Major:{clay,sand}, Minor:{gravel}",95.385,88.925,Tuscaloosa Formation,133
+32.37185294067564,-82.15738931475128,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.26927733952624,-84.67488025272932,0,OK,"Major:{clay,sand}, Minor:{limestone}, Incidental:{marl}",71.0833,70.0667,Ripley Formation,133
+31.807425763881888,-81.33455740352811,0,OK,Major:{fine alluvium},0.0117,0.0,Holocene Shoreline Complex - marsh and lagoonal facies,133
+33.551748789217214,-83.11795863617051,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+33.523794011149036,-84.53272329598407,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.29212255816619,-83.35807820867004,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.14187975262372,-81.59312125957614,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.9244913287888,-84.16024992648119,0,OK,sedimentary rocks,541.0,419.2,Paleozoic sedimentary rocks,154
+33.74451175063765,-84.87022699460849,0,OK,plutonic: undivided granitic rocks,419.2,358.9,Devonian plutonic: undivided granitic rocks,7
+32.00465621927109,-82.17384915726188,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.116658392234413,-82.83206503893074,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.40960543360015,-84.6473658679911,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.600649262835773,-83.1325720082539,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.89574000716811,-83.89299104237868,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.234210421708234,-83.51295864817473,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+33.73503047461409,-84.74587331411036,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+32.53348971004997,-82.00052802854977,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.04392831257371,-81.80282754714804,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+31.99885848061345,-82.04777043228269,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+32.63046636820722,-84.30374341930349,0,OK,"Major:{clay,sand}, Minor:{gravel}",95.55,90.825,Tuscaloosa Formation,133
+34.00497627519833,-83.37363541153623,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+33.35743393758044,-83.8154825468788,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.153311856312946,-84.82645925246635,0,OK,Major:{dolostone},511.0,493.575,Conasauga Group; Lower unit; lower dolostone unit,133
+34.666168486980084,-83.83609255976523,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.016977029928995,-82.06736167833895,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.414475060263264,-84.88733669986951,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+33.41335362381142,-84.38051937069844,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.34026340911599,-81.91134367798205,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.75529528104485,-83.0573537361416,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+31.305979099993205,-83.17197586047395,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+34.74097072243383,-84.15211693250951,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+31.08011127860811,-84.74601936617098,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+30.9576111240325,-82.68152058229147,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+34.12771084876873,-84.51671386923493,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.15940533584338,-82.78342407187411,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.788201318960645,-83.79804352910388,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.81797143238186,-84.71535904974782,0,OK,"Major:{shale,sandstone}",511.0,493.575,Conasauga Group; Lower unit; shale and sandstone unit,133
+31.61407281806046,-84.94712534036458,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+34.19630596808633,-84.47657467740694,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+32.853204016178296,-84.13700565694009,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.426947058714944,-81.30754301763275,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+33.02530472824437,-83.832646336031,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.828814606701926,-82.86144046001846,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+31.16836631602673,-82.90181278409707,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+32.8207045085391,-84.47929299606328,0,OK,sedimentary rocks,541.0,419.2,Paleozoic sedimentary rocks,154
+31.185517243309764,-84.1929417464364,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+33.35723942916247,-84.16722168849955,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.79369976167349,-83.42261361565754,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.11792753760702,-83.27347266159843,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.05468257286401,-82.96204462311903,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+32.76489606890134,-81.59206008625448,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+33.29512777395571,-82.4918302460276,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+30.650059781717346,-82.4582507599059,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+31.322426442499967,-84.01242339341766,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.52879926516935,-84.89531740006113,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+30.953558501912703,-82.82222757754532,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+32.4517874429775,-81.67658588399514,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.01896161103221,-83.59961040621451,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.984743115029726,-84.77172297735846,0,OK,Major:{sand},67.22,66.61,Providence Sand,133
+32.05805891515918,-84.88421545923659,0,OK,"Major:{sand,clay,limestone}",64.9,62.7,Clayton Formation,133
+34.46185463523973,-84.81644265334776,0,OK,"Major:{limestone,shale}",511.0,493.575,Conasauga Group; Upper unit; limestone and shale unit,133
+31.02268620775566,-84.48317596924693,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.27141570694595,-81.29009099947899,0,OK,Major:{fine alluvium},2.588,0.0117,Penholoway shoreline complex - marsh and lagoonal facies,133
+33.821288941404575,-84.27761644070017,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.80942704387187,-82.51805988328593,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.458998510941473,-83.24347938544105,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+31.85961371848041,-82.48627853408347,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.353164010777206,-83.04971549764673,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+31.521062904612386,-84.47193004997524,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.54145607241053,-82.57514515217669,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.15282283037853,-81.8390141343595,0,OK,Major:{sand},2.588,0.0117,Talbot shoreline complex - barrier island facies,133
+32.71124778714581,-84.45452106330707,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+30.88123599337432,-81.48624305804069,0,OK,,,,water,133
+33.2648419742592,-84.2700673689907,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.14022891337368,-84.23106378459931,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+32.21532426525037,-83.06257967582246,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.007403836956094,-83.10402302237533,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.85222207209207,-85.09432815538659,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.531355383653235,-84.31205835276099,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.87676175982287,-83.90128569670583,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+30.86936994058983,-83.32322079640619,0,OK,"Major:{dolostone,sand,clay}",17.6463,17.0875,Hawthorn Formation,133
+34.91353929407563,-83.25179027664458,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.175289319289103,-81.52557789364624,0,OK,Major:{fine alluvium},0.0117,0.0,Holocene Shoreline Complex - marsh and lagoonal facies,133
+31.252831989897512,-81.9336140513605,0,OK,Major:{fine alluvium},2.588,0.0117,Penholoway shoreline complex - marsh and lagoonal facies,133
+33.00548136454338,-83.43708323045611,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.41798319646595,-82.66017481049447,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.516643072121838,-83.4114780917618,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+32.351832530758486,-84.98266818247706,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+33.48527764856702,-83.71128565319388,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.66589727605702,-83.64371329536986,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.60769682969904,-84.71073861301838,0,OK,Major:{limestone},511.0,493.575,Conasauga Group; Middle unit; Limestone unit,133
+31.780336973287298,-82.00152269296129,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+31.278074124469622,-84.07375921746596,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.12160246309848,-83.14782053826002,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.951173845234774,-81.42441185950179,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+34.264949767578514,-85.02378983885406,0,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+32.76690945282101,-85.06072610369301,0,OK,sedimentary rocks,541.0,419.2,Paleozoic sedimentary rocks,154
+31.967959123157932,-84.17420574471835,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+34.256497577585264,-83.55051752566861,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.850449006322876,-84.18267477419504,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.7410009592051,-81.96874111123522,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.174897770999266,-84.43652549920877,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+32.909994804433076,-81.55241850850317,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+33.13660875354669,-82.11093300000134,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+33.14338264674997,-82.94695380681124,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.91469570467859,-82.15454579399764,0,OK,"Major:{sandstone,claystone}",17.6463,13.82,Neogene undifferentiated,133
+31.70465713208679,-82.35848900024813,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+34.86926077736519,-84.48845791625375,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+33.24450175499459,-82.98091619029582,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+32.46963250577669,-84.09415259286595,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+31.694504612009098,-82.48912225217407,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+30.656648613388192,-83.31101331820399,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+31.984107443131947,-83.20772024808223,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.432187030206734,-82.43078211157608,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.763660789493855,-84.93127503742112,0,OK,"sand,mud,clay,chalk",56.8,49.85,Early Eocene sedimentary,7
+31.903555852669207,-83.86074950004468,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.04733459608626,-83.25387837235135,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+30.827759798820264,-83.91119260175402,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+31.168977485660474,-84.2954342786991,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.505322973777687,-84.4032437364065,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+33.43302532782857,-82.14731907019795,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.082987505821016,-84.25311811395913,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+32.685273683613985,-84.41217383602908,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.871555538345593,-81.9374694093598,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+30.952958790380396,-82.1549482418763,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+34.91873475838928,-85.48850661637987,0,OK,sedimentary,358.9,323.2,Mississippian sedimentary,7
+33.500214415000734,-82.25200990329743,0,OK,sedimentary rocks,145.0,66.0,Mesozoic sedimentary rocks,154
+33.85032458876422,-84.4491067981789,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+33.60006428734549,-84.29847661616215,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.143533097367246,-81.72888427240379,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+31.863889054061826,-84.84090838842725,0,OK,Major:{sand},67.22,66.61,Providence Sand,133
+33.68697152546623,-82.4576244905437,0,OK,volcanic: felsic rocks,541.0,485.4,Cambrian volcanic: felsic rocks,7
+34.771806448374875,-85.42810236165172,0,OK,"sandstone,shale,coal",323.2,322.15,Bashkirian sedimentary,7
+32.998362017578174,-82.96660657215227,0,OK,"sand, chalk, mud",59.2,56.0,Late Cretaceous sedimentary,7
+31.72589258026674,-82.86123252493259,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+32.63092560010954,-84.15932422726524,0,OK,"Major:{clay,sand}, Minor:{gravel}",95.55,90.825,Tuscaloosa Formation,133
+32.33932516424684,-84.8296972532264,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+34.03139300707586,-83.8698547826777,0,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+33.00384154813729,-81.69149219308967,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+33.299922384415936,-85.22841721157647,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.60776868859098,-83.27409270063102,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.02533010778701,-82.3750988106455,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+32.563450837664966,-81.83811730276723,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.82654073835742,-81.55577003747476,0,OK,Major:{fine alluvium},2.588,0.0,Stream alluvium,133
+32.90270715592601,-83.19533453031215,0,OK,"sand, chalk, mud",74.975,71.0833,Late Cretaceous sedimentary,7
+30.625106294409907,-82.53779342935496,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+32.350571417062376,-84.48328629020848,0,OK,"Major:{clay,sand}, Minor:{limestone}, Incidental:{marl}",71.0833,70.0667,Ripley Formation,133
+33.650219229325174,-83.23831528002572,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+30.576670507845463,-82.12773329256116,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+33.658781889772335,-84.63923901924254,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.690011773326198,-84.59817590048264,0,OK,"sand,mud,clay,chalk",41.3,40.425,Middle Eocene sedimentary,7
+33.26984336388249,-83.53433920309405,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.411165161850917,-84.7388530935097,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.4030443366108,-84.02581020416498,0,OK,"Major:{sand,clay}",58.4,56.8,Nanafalia Formation,133
+34.23802462565539,-83.71175229463245,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.16985099872647,-82.63629646531423,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.805528409289167,-82.4999592256242,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.337264053938526,-82.27018403426169,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+33.211512903062825,-84.07171755600889,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.17962007456512,-84.5674023237206,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+33.77004673936608,-85.09828386511154,0,OK,sedimentary rocks,541.0,251.902,Paleozoic sedimentary rocks,154
+31.767856368399045,-84.15836061033946,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.313989702150025,-82.38812034780689,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.19260168957294,-83.37992200183623,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.31148371223051,-84.06552792402474,0,OK,Major:{sand},67.22,66.61,Providence Sand,133
+30.688133388745804,-84.23874696863409,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+33.462863580923795,-82.98778134270715,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+31.577078128143835,-83.47722689668507,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+33.66118793234571,-83.16470580297829,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+32.175500984358486,-82.56241396940979,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.99804627986544,-85.08451116861228,0,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+32.101722014869694,-82.63741281495105,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.414449824634328,-84.02839797031017,0,OK,Major:{limestone},31.9667,26.41,Suwannee Limestone and its residuum,133
+33.05290804027231,-84.67534936456205,0,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+30.73519491102307,-84.34239492737436,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.375889490646365,-84.304693926921,0,OK,"Major:{clay,sand}, Minor:{limestone}, Incidental:{marl}",71.0833,70.0667,Ripley Formation,133
+31.206327437360287,-83.47435718551888,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.42370034384146,-84.3126018249239,0,OK,"Major:{clay,sand}, Minor:{limestone}, Incidental:{marl}",71.0833,70.0667,Ripley Formation,133
+33.101045689007286,-82.51514203121909,0,OK,Major:{sand},34.992,34.875,Irwinton Sand,133
+31.698589101845254,-83.98340409464893,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.300087300229443,-82.31864379946238,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+34.59202912385496,-84.76727840067261,0,OK,"Major:{shale,sandstone}",511.0,493.575,Conasauga Group; Lower unit; shale and sandstone unit,133
+34.07008481786083,-84.55249079419012,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+30.976634865223037,-84.64903127189866,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.30125388037656,-83.3477625750537,0,OK,Major:{limestone},31.9667,28.1,Suwannee Limestone and its residuum,133
+32.81126811686371,-84.3046649330725,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+33.589842727989904,-84.5803745852822,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+31.55186253526717,-84.12806944244811,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+34.49923843321488,-83.39571143456638,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+33.21441779595561,-85.00365144418765,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.392261109004494,-85.0121927452248,0,OK,"Major:{limestone,shale}",511.0,493.575,Conasauga Group; Middle unit; Shale unit,133
+32.03729508820513,-83.61952457416496,0,OK,"Major:{sandstone,claystone}",17.6463,16.5288,Neogene undifferentiated,133
+34.55450644735429,-85.09358959516966,0,OK,"Major:{sandstone,shale}",440.8,426.3,Red Mountain Formation,133
+31.123618053925377,-82.86876074816648,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.04201430135574,-84.86340584451582,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.07613746771367,-81.23855577390057,0,OK,Major:{fine alluvium},2.588,0.0117,Pamlico shoreline complex - marsh and lagoonal facies,133
+34.38637297833115,-83.4382861872131,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.16259168253938,-82.84514213770622,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.069817045149236,-83.6586700808534,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+32.310713553831185,-81.74140516656293,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.26459969163102,-84.30104085580707,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+33.930152348716874,-84.85462701624685,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+34.4999410444745,-84.14485128239734,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+30.848032929679842,-84.26508787323519,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+32.83936822190712,-82.45984507960814,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+34.33076340649763,-84.92721691345227,0,OK,Major:{limestone},511.0,493.575,Conasauga Group; Middle unit; Limestone unit,133
+33.837970176724426,-85.07453462541112,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+31.709534175625244,-84.97437728524005,0,OK,"Major:{sand,clay}",58.4,56.8,Nanafalia Formation,133
+30.809247481802124,-82.0927939402146,0,OK,Major:{sand},2.588,0.0117,Wicomico Shoreline Complex - barrier island facies,133
+33.88033309560266,-83.94763539335005,0,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+32.848151987672,-84.2447754680104,0,OK,sedimentary rocks,541.0,419.2,Paleozoic sedimentary rocks,154
+32.28276039322482,-83.4463252008329,0,OK,Major:{limestone},31.9667,28.1,Suwannee Limestone and its residuum,133
+33.21858618661895,-84.43987514362843,0,OK,plutonic: undivided granitic rocks,358.9,298.9,Mississippian-Pennsylvanian plutonic: undivided granitic rocks,7
+32.91399510469295,-81.53352648800183,0,OK,"Major:{sand,gravel}",5.333,0.0117,Pleistocene-Pliocene sands and gravels,133
+34.92233185337188,-83.69948257357562,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+33.543439180747896,-82.41949775936297,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+30.84142793615628,-83.69823996425401,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+31.2786266008345,-83.32524568635814,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+34.194434133758236,-83.10407884542576,0,OK,intrusive igneous rocks,443.8,358.9,Paleozoic intrusive rocks,154
+30.823719452176473,-83.48785488502146,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+33.90255710349955,-83.97410690832649,0,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+34.48497523549169,-84.1903151622497,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+34.07465405537081,-85.19326148907317,0,OK,"Major:{dolostone}, Minor:{limestone}",493.575,470.0,Knox Group undifferentiated,133
+34.45129539130787,-83.56633997742894,0,OK,sedimentary,1000.0,485.4,Neoproterozoic-Cambrian sedimentary,7
+33.37844037786941,-84.80774325883121,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+31.85551436387594,-83.95461064006884,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.744941724801603,-84.43337212753234,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+31.637156103348772,-82.68961746285939,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+33.519177860224815,-82.90386817972104,0,OK,felsic paragneiss; paragneiss/metavolcanic gneiss,541.0,251.902,Paleozoic crystalline metamorphic rocks,154
+34.51680848843431,-84.68178447796598,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+31.08176195521287,-83.96242752095154,0,OK,"Major:{clay,sand,gravel}",2.1586,1.7292,Miccosukee Formation,133
+33.2030536412272,-83.19127082721707,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+33.459800247498116,-84.89702313616569,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+34.60219350026378,-83.47627558517085,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
+32.125836697426216,-83.01756787195868,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+33.6991204933458,-84.33138155747784,0,OK,plutonic: undivided granitic rocks,541.0,443.8,Cambrian-Ordovician plutonic: undivided granitic rocks,7
+33.331204157745084,-82.68699257030038,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+34.01569646051317,-85.27086707005417,0,OK,Major:{limestone},479.625,459.044,Newala Limestone,133
+31.20824359993645,-82.72162621240439,0,OK,sedimentary,5.333,2.588,Pliocene sedimentary,7
+34.7875466136917,-83.65146075049938,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+34.8556758275265,-84.09729982740168,0,OK,sedimentary,1000.0,541.0,Neoproterozoic sedimentary,7
+32.13370814591915,-84.47745474138138,0,OK,"Major:{sand}, Minor:{marl}",56.8,56.0,Tuscahoma Sand,133
+30.756759807882304,-82.35653458756711,0,OK,Major:{fine alluvium},2.588,0.0117,Wicomico Shoreline Complex - marsh and lagoonal facies,133
+31.02125078664529,-84.98000130884596,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.64801576377298,-82.56361103885925,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+31.470805905485758,-84.60726214314656,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+34.58748494652521,-84.24279352080607,0,OK,sedimentary rocks,1000.0,541.0,Neoproterozoic sedimentary rocks,154
+33.815534857651656,-85.26406675334148,0,OK,sedimentary,443.8,358.9,Silurian-Devonian sedimentary,7
+34.68467595419665,-85.4315745310733,0,OK,"Major:{dolostone}, Minor:{limestone}",493.575,477.7,Knox Group undifferentiated,133
+32.54019896186809,-83.49351628768748,0,OK,"sandstone, clay, chalk, limestone,",37.8,37.15,Late Eocene sedimentary,7
+32.27693049658996,-82.66467877571971,0,OK,"Major:{sandstone,claystone}",17.6463,17.0875,Neogene undifferentiated,133
+32.022076913153185,-81.46511193544278,0,OK,Major:{fine alluvium},2.588,0.0117,Talbot shoreline complex - marsh and lagoonal facies,133
+33.2196070556586,-85.07720565900561,0,OK,felsic paragneiss; amphibolite grade paragneiss/metavolcanic gneiss,1000.0,251.902,Precambrian-Phanerozoic crystalline metamorphic rocks,154
+31.99027939654698,-84.66806087404827,0,OK,"Major:{sand}, Minor:{marl}",56.8,56.0,Tuscahoma Sand,133
+33.82309091075941,-83.08077793655602,0,OK,mudstone-carbonate-sandstone-conglomerate,541.0,485.4,Paleozoic sedimentary and volcanic rocks,154
+34.07868226332945,-83.87026620899815,0,OK,volcanic: interlayered sedimentary and volcanic rocks,1000.0,485.4,Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,7
