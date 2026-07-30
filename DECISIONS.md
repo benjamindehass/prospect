@@ -129,7 +129,25 @@ strings; and above all a finer lith source for the Piedmont/Blue Ridge
 REJECTED: one-hot on raw lith (encodes map_source -> label leak);
 dropping lith entirely (unconsolidated flag does carry real signal).
 
-11 RESERVED — dev_stat as sample_weight, + sensitivity test (Session D).
+11 [7/29] dev_stat as sample_weight: TESTED, NOT ADOPTED [AUTONOMOUS]:
+D6 deferred this: keep dev_stat as a column, decide at training time. Decided.
+Scheme tested: Producer/Past Producer 1.0, Prospect 0.7, Unknown 0.5,
+Occurrence 0.4; negatives 1.0 (a random point has no trust gradient).
+RESULT: it does nothing. AUC 0.919 +/- 0.049 both ways, identical to three
+decimals. Spearman rho between weighted and unweighted predictions = 0.9947,
+top-decile overlap 87%.
+WHY it does nothing, which is the interesting part: after D13's dedupe kept
+the highest-trust rung per coordinate, 288 of 345 positives are already at
+weight 1.0 and only 27 sit at 0.4. Deduplication had already done the
+trust-selection work, so the weight vector is nearly constant. Two decisions
+interacting in a way neither anticipated.
+CHOSEN: ship v0 UNWEIGHTED. The code path stays (spatial.cross_validate takes
+sample_weight, sliced to the train side only — weighting the test side would
+change what the metric means fold to fold), so re-testing is one argument.
+REVISIT: if the positive set ever grows via lower-trust sources (v1 mineralogy
+mining, mindat), the weight vector stops being constant and this flips.
+REJECTED: adopting it anyway "because it is more principled" — unfalsifiable
+complexity; enabling it silently and claiming rigour in the README.
 
 12 RESERVED — point-API vs bulk Macrostrat for the grid (Session E).
 
@@ -199,5 +217,62 @@ marginal coverage); making high-AUC fatal (would auto-delete real
 geology); unit tests only (they check code, not datasets — the bugs
 here live in the data).
 
-16 RESERVED — spatial cross-validation (Session D). CLAUDE.md calls this
-"D10"; see entry 7. INTERVIEW CORE, go slow.
+16 [7/29] Spatial cross-validation [AUTONOMOUS]. CLAUDE.md calls this "D10";
+see entry 7 for the numbering. INTERVIEW CORE.
+
+WHY NOT RANDOM KFOLD. Mineral occurrences are spatially autocorrelated: a
+point 200m from a known mine sits in the SAME MAP UNIT, so it carries the
+same lith and the same b_age. Shuffle those into different folds and the
+test set is not held out in any meaningful sense — the model has already
+seen that feature vector with that label. Random CV measures interpolation
+between neighbours. Nobody wants to know that.
+CHOSEN: tile GA into square degree-blocks, assign whole blocks to folds via
+GroupKFold, so every test point is separated from all training points by at
+least the block edge. Report the WHOLE block-size curve rather than defend
+one value, because there is no single right block size and the curve is the
+actual finding:
+
+  random KFold (leaky)      854 groups   AUC 0.927 +/- 0.009
+  0.1 deg blocks (~9km)     517 blocks   AUC 0.925 +/- 0.023
+  0.25 deg blocks (~23km)   223 blocks   AUC 0.928 +/- 0.022
+  0.5 deg blocks (~46km)     69 blocks   AUC 0.919 +/- 0.049
+  1.0 deg blocks (~93km)     24 blocks   AUC 0.857 +/- 0.043
+  2.0 deg blocks (~186km)     8 blocks   AUC 0.815 +/- 0.049 (1 fold skipped)
+
+THE RESULT I DID NOT EXPECT: the random-vs-blocked gap at fine scales is
+~0.008 AUC, essentially nothing. The naive reading is "no leakage, we're
+fine." That reading is wrong. The gap is small at 9-46km because the
+FEATURES ARE UNIT-LEVEL: a 0.1deg block holds the same map units as its
+neighbours, so blocking at that scale removes no information the model was
+using. Autocorrelation length here is the size of a geologic map unit, which
+is large. The skill is regional, and only blocks big enough to hold out whole
+regions expose it — hence the drop from 0.919 to 0.815 as blocks grow.
+COROLLARY: excluding lat/lng from X (D14) is what made the fine-scale gap
+small. With raw coordinates in X the model would have memorised locations
+and this curve would collapse. The two decisions are load-bearing together.
+HEADLINE NUMBERS, because the two ends of the curve answer different
+questions and quoting one is dishonest:
+  0.919 (0.5deg) = "score GA where training points are scattered nearby" —
+        this matches how the v0 grid map is actually used.
+  0.857 (1.0deg) = "generalise to a region held out entirely" — this is the
+        v2 "GA-is-an-instance / another state" question.
+  2.0deg is reported but NOT quoted: 8 blocks over 5 folds is too few, and a
+  skipped single-class fold means the mean rests on 4.
+ABLATION (0.5deg blocks): age only 0.869, lith only 0.716, both 0.919. Lith
+earns its place despite D8's dead gold-host flags — lith_volcanic carries 14%
+of importance, because source 7's "volcanic: interlayered sedimentary and
+volcanic rocks" IS the Dahlonega metavolcanic sequence under a coarse name.
+The flag I did not expect to matter is the one doing work.
+PROVINCE CHECK (the fear from Session C): all 345 positives fall in the
+crystalline province; the Coastal Plain contributes 303 negatives and zero
+positives. So statewide AUC is partly a Fall Line detector. Restricting to
+the crystalline province and re-running: AUC 0.804 +/- 0.101 on 345 pos /
+206 neg. That is real discrimination INSIDE gold country, not province
+separation — the model has something to say for master 2. Reported alongside
+the statewide number, never instead of it.
+REJECTED: random KFold (the number it produces is not about generalisation);
+one block size presented as "the" honest AUC (hides that the answer depends
+on the question); leave-one-out (maximal leakage on autocorrelated data);
+buffered leave-one-out (defensible, but ~854 fits per config for a curve
+this one already shows); quoting 0.919 alone in the README (it is inflated by
+303 trivially-negative Coastal Plain points).

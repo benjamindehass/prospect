@@ -1,0 +1,169 @@
+{
+  "seed": 42,
+  "n_rows": 854,
+  "dev_stat_weighting": {
+    "scheme": {
+      "Producer": 1.0,
+      "Past Producer": 1.0,
+      "Prospect": 0.7,
+      "Unknown": 0.5,
+      "Occurrence": 0.4
+    },
+    "weighted": {
+      "auc_mean": 0.9188111189874789,
+      "auc_std": 0.04871342975114214,
+      "ap_mean": 0.8378366062307826,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    "unweighted": {
+      "auc_mean": 0.9187679912618755,
+      "auc_std": 0.04862601913562429,
+      "ap_mean": 0.8376824813954492,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    "spearman_rho": 0.9946571171459287,
+    "top_decile_overlap": 0.8705882352941177
+  },
+  "n_positive": 345,
+  "n_negative": 509,
+  "features": [
+    "b_age",
+    "t_age",
+    "age_mid",
+    "lith_metamorphic",
+    "lith_plutonic",
+    "lith_volcanic",
+    "lith_sedimentary",
+    "lith_unconsolidated",
+    "lith_schist",
+    "lith_gneiss",
+    "lith_quartz",
+    "lith_mafic",
+    "lith_felsic"
+  ],
+  "baseline_ap": 0.40398126463700235,
+  "block_sweep": [
+    {
+      "block_deg": 0.0,
+      "n_blocks": 854,
+      "label": "random KFold (leaky)",
+      "auc_mean": 0.9274442772856512,
+      "auc_std": 0.009456175883176906,
+      "ap_mean": 0.8553726759942835,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "block_deg": 0.1,
+      "n_blocks": 517,
+      "label": "spatial blocks 0.1deg (~9km)",
+      "auc_mean": 0.9246902468543506,
+      "auc_std": 0.023012690770505728,
+      "ap_mean": 0.8497599137968941,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "block_deg": 0.25,
+      "n_blocks": 223,
+      "label": "spatial blocks 0.25deg (~23km)",
+      "auc_mean": 0.9279831928946226,
+      "auc_std": 0.021880993378335628,
+      "ap_mean": 0.8566818315332616,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "block_deg": 0.5,
+      "n_blocks": 69,
+      "label": "spatial blocks 0.5deg (~46km)",
+      "auc_mean": 0.9187679912618755,
+      "auc_std": 0.04862601913562429,
+      "ap_mean": 0.8376824813954492,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "block_deg": 1.0,
+      "n_blocks": 24,
+      "label": "spatial blocks 1.0deg (~93km)",
+      "auc_mean": 0.8565627747436718,
+      "auc_std": 0.043368379340119584,
+      "ap_mean": 0.6384498717839368,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "block_deg": 2.0,
+      "n_blocks": 8,
+      "label": "spatial blocks 2.0deg (~186km)",
+      "auc_mean": 0.8154186711135621,
+      "auc_std": 0.04902912822804714,
+      "ap_mean": 0.7050697932061769,
+      "n_folds": 4,
+      "skipped": 1
+    }
+  ],
+  "ablation": [
+    {
+      "features": "age only",
+      "n": 3,
+      "auc_mean": 0.8689277489033074,
+      "auc_std": 0.03771952568822874,
+      "ap_mean": 0.721877288901133,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "features": "lith only",
+      "n": 10,
+      "auc_mean": 0.7163487848251042,
+      "auc_std": 0.06479593129987848,
+      "ap_mean": 0.5541844008882832,
+      "n_folds": 5,
+      "skipped": 0
+    },
+    {
+      "features": "age + lith (full)",
+      "n": 13,
+      "auc_mean": 0.9187679912618755,
+      "auc_std": 0.04862601913562429,
+      "ap_mean": 0.8376824813954492,
+      "n_folds": 5,
+      "skipped": 0
+    }
+  ],
+  "province": {
+    "coastal_plain": {
+      "auc_mean": NaN,
+      "auc_std": NaN,
+      "ap_mean": NaN,
+      "n_folds": 0,
+      "skipped": 5
+    },
+    "crystalline": {
+      "auc_mean": 0.8041103840687931,
+      "auc_std": 0.10051108184841216,
+      "ap_mean": 0.8381416569971881,
+      "n_folds": 5,
+      "skipped": 0
+    }
+  },
+  "importance": {
+    "b_age": 0.48559001088142395,
+    "age_mid": 0.18140000104904175,
+    "lith_volcanic": 0.1437000036239624,
+    "t_age": 0.06007999926805496,
+    "lith_sedimentary": 0.03863000124692917,
+    "lith_metamorphic": 0.02954000048339367,
+    "lith_gneiss": 0.026900000870227814,
+    "lith_felsic": 0.01834000088274479,
+    "lith_plutonic": 0.01582000032067299,
+    "lith_schist": 0.0,
+    "lith_unconsolidated": 0.0,
+    "lith_quartz": 0.0,
+    "lith_mafic": 0.0
+  }
+}
