@@ -79,7 +79,11 @@ def featurize_grid(cells: pd.DataFrame, out_path: Path,
                 print(f"  fetched {done}/{len(todo)}  "
                       f"{done / elapsed:.2f}/s  ETA {eta:.0f} min", flush=True)
 
-    df = pd.DataFrame(rows)
+    # Sort before returning: as_completed yields futures in completion order,
+    # so without this the same grid writes different bytes every run and every
+    # rebuild shows a 1462-line diff with no content change. Reproducible means
+    # reproducible on disk, not just in the numbers (CLAUDE.md).
+    df = pd.DataFrame(rows).sort_values(["lat", "lng"]).reset_index(drop=True)
     print(f"  statuses: {df['status'].value_counts().to_dict()}", flush=True)
     return df
 
