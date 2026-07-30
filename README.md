@@ -12,7 +12,30 @@ the whole state. The output is a ranked "go look here" list and a heatmap.
 > state-agnostic — Georgia is an instance, passed as an argument, not an
 > assumption baked into the code.
 
-![Modelled gold prospectivity, Georgia](outputs/prospectivity_GA_0.2.png)
+![Modelled gold prospectivity, Georgia](outputs/prospectivity_GA_0.1.png)
+
+The red band is the Dahlonega gold belt. The model was never told it exists —
+it inferred it from rock type and age, and the black dots (known MRDS
+occurrences) are drawn on afterwards for comparison, not used at scoring time.
+
+## Where to actually go
+
+Ranked by map unit rather than by grid cell, for a reason explained in
+limitation 6 below.
+
+| P | Cells | Centroid | Map unit |
+|---|---|---|---|
+| 0.920 | 58 | 34.10, −84.30 | Neoproterozoic–Cambrian sedimentary |
+| 0.910 | 7 | 33.70, −82.60 | Cambrian volcanic: felsic rocks |
+| 0.888 | 1 | 34.20, −84.00 | Mesoproterozoic crystalline metamorphic rocks |
+| 0.796 | 1 | 33.90, −85.10 | Devonian volcanic: mafic rocks |
+| 0.737 | 54 | 34.60, −84.40 | Neoproterozoic sedimentary (two units) |
+| 0.451 | 162 | 33.70, −83.90 | Neoproterozoic–Cambrian interlayered sedimentary/volcanic |
+
+The top unit sits squarely in the historic Dahlonega–Auraria district, which is
+a reassuring sanity check rather than a discovery. The second entry, near
+Augusta, is the more interesting one: a separate high in the Carolina terrane
+that the Dahlonega-trained signal picked out on lithology and age alone.
 
 ## The honest numbers
 
@@ -100,6 +123,16 @@ labels propagates straight into the map.
 **5. No field validation yet.** One trip to a high-probability cell is planned;
 the writeup happens either way.
 
+**6. The model's resolution is the map polygon, not the grid cell.** Every
+feature it sees is an attribute of a geologic map unit, so all cells inside one
+unit get an identical score. 1462 cells produce only 34 distinct probabilities,
+and 850 of them sit at exactly 0.002. Ranking cells within a plateau would be
+sorting noise, which is why the list above is by unit. A finer grid does not
+fix this — the ceiling is the geologic map underneath. What would fix it is
+features that vary *within* a unit: distance to unit contacts (gold favours
+them), distance to mapped faults, structural trend, stream-sediment
+geochemistry. That is the highest-value v1 item (`DECISIONS.md` #18).
+
 ## Pipeline
 
 ```
@@ -117,9 +150,13 @@ GA polygon ───────────┴─> pseudo_absences.csv ┴─> 
 pip install -r requirements.txt
 python scripts/build_training_table.py     # merge, dedupe, featurize, validate
 python scripts/train_model.py              # spatial CV, ablation, metrics
-python scripts/build_grid.py --step 0.1    # ~18 min, resumable, cached
+python scripts/build_grid.py --step 0.1    # ~25 min, resumable, cached
 python scripts/render_map.py --step 0.1    # HTML + PNG
 ```
+
+`build_grid.py --state NC` works too: no state-specific logic lives in
+`src/prospect/`, so Georgia is an argument rather than an assumption. The
+interactive folium map is not committed (~2 MB, regenerable); the PNG is.
 
 Reproducible: seed 42 throughout, every Macrostrat response cached to disk and
 never re-queried, all paths relative to the repo root via `pathlib`.

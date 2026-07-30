@@ -1,0 +1,9 @@
+unit_name,lith,prob,cells,lat,lng
+Neoproterozoic-Cambrian sedimentary,sedimentary,0.91979605,58,34.1,-84.3
+Cambrian volcanic: felsic rocks,volcanic: felsic rocks,0.9098805,7,33.7,-82.6
+Mesoproterozoic crystalline metamorphic rocks,paragneiss; paragneiss/metavolcanic gneiss,0.8884306,1,34.2,-84.0
+Devonian volcanic: mafic rocks,volcanic: mafic rocks,0.7955309,1,33.9,-85.1
+Neoproterozoic sedimentary,sedimentary,0.73682356,17,34.6,-84.5
+Neoproterozoic sedimentary rocks,sedimentary rocks,0.73682356,37,34.7,-84.3
+Devonian plutonic: undivided granitic rocks,plutonic: undivided granitic rocks,0.46522573,2,33.8,-84.75
+Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks,volcanic: interlayered sedimentary and volcanic rocks,0.4508678,162,33.7,-83.9

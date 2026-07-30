@@ -44,15 +44,34 @@ finer lith coverage for the Piedmont (D8 FUTURE). Session D quantifies it
 first: report AUC statewide AND within-province. If within-province AUC
 collapses toward 0.5, the sampling has to change.
 
-## Session E — grid + heatmap (the visible payoff)
+## Session E — grid + heatmap [DONE 7/29]
 
-- Generate GA grid; featurize via cache/bulk Macrostrat
-- ⟡ DECISION #12: point-API vs bulk data (150k points ≈ 35 days via API — likely bulk)
-- Score grid, render folium heatmap
-- Commit map image to repo; README shows it
+- 0.1° GA grid, 1462 cells, all OK, featurized through the same
+  features.add_features() the training table uses (D12)
+- D17: killed a wasted query + 8-worker pool — 75s/cell → 0.75 cells/s
+- D18: resolution ceiling — 1462 cells, 34 distinct probabilities;
+  "go look here" list is by map unit, not by cell
+- outputs/prospectivity_GA_0.1.png committed; README shows it
 
-## Session F — ship
+## Session F — ship [DONE 7/29]
 
-- README: how-it-works, honest limitations, the map, findings
-- Resume bullet block (FDE + MLE orderings)
+- README: honest numbers, why-not-random-splits, 6 stated limitations, the map
+- Resume bullets: notes/resume_bullets.md (gitignored — personal career
+  material, not project documentation)
 - Tag v0
+
+## After v0 — highest value first
+
+1. **Per-point features** (D18). Distance to unit contacts, to mapped faults,
+   structural trend, stream-sediment geochemistry. Breaks the plateaus. This is
+   the one change that would make the map point at ground rather than at
+   polygons.
+2. **Finer lithology for the Piedmont** (D8). The map covering 87% of positives
+   has no metamorphic vocabulary; GA Geological Survey mapping would give
+   schist/gneiss/quartz-vein terms the model currently cannot see.
+3. **Region-restricted negatives** (D10a revisit). All 345 positives are in the
+   crystalline province, so statewide AUC is inflated by 303 trivially-negative
+   Coastal Plain cells. Sampling negatives only inside the crystalline province
+   makes the metric answer the question master 2 actually asks.
+4. **Field validation.** One trip to the 34.10, −84.30 unit; writeup either way.
+5. **Serving layer** (v0.1). FastAPI + React/MapLibre, deliberately deferred.
