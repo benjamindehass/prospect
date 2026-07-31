@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROSPECT — modelled gold prospectivity, Georgia</title>
+<meta name="description" content="Predicting where gold occurs in Georgia from
+public geologic data, validated with spatial-block cross-validation.">
+<style>
+  :root {
+    --bg:#fbfaf8; --fg:#1c1b19; --muted:#6b675f; --line:#e2ded6;
+    --card:#ffffff; --accent:#b4451f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#16151a; --fg:#e9e6e1; --muted:#9a958c; --line:#302d36;
+      --card:#1e1d23; --accent:#e8794a;
+    }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  .wrap { max-width:900px; margin:0 auto; padding:0 20px 72px; }
+  header { padding:64px 0 8px; }
+  h1 { font-size:2.6rem; letter-spacing:-.03em; margin:0 0 .3em; }
+  h2 { font-size:1.35rem; letter-spacing:-.01em; margin:2.6em 0 .6em;
+        padding-top:1.4em; border-top:1px solid var(--line); }
+  .lede { font-size:1.15rem; color:var(--muted); margin:0 0 2em; max-width:62ch; }
+  a { color:var(--accent); }
+  figure { margin:0 0 8px; }
+  iframe { width:100%; height:620px; border:1px solid var(--line);
+            border-radius:10px; background:var(--card); }
+  figcaption { color:var(--muted); font-size:.9rem; margin-top:10px; }
+  .scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  table { border-collapse:collapse; width:100%; font-size:.94rem; min-width:520px; }
+  th,td { text-align:left; padding:9px 14px 9px 0; border-bottom:1px solid var(--line); }
+  th { font-weight:600; color:var(--muted); font-size:.82rem;
+        text-transform:uppercase; letter-spacing:.06em; }
+  td.n { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  tr.hi td { font-weight:650; }
+  .note { color:var(--muted); font-size:.9rem; }
+  ol.lim { padding-left:1.2em; }
+  ol.lim li { margin:.7em 0; }
+  footer { margin-top:3.5em; padding-top:1.4em; border-top:1px solid var(--line);
+            color:var(--muted); font-size:.9rem; }
+  code { background:var(--card); border:1px solid var(--line);
+          padding:1px 5px; border-radius:4px; font-size:.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>PROSPECT</h1>
+  <p class="lede">Predicting where gold occurs in Georgia from public geologic
+  data — and being honest about how well that works.</p>
+</header>
+
+<figure>
+  <iframe src="map.html" title="Interactive gold prospectivity map of Georgia"
+          loading="lazy"></iframe>
+  <figcaption>Hover any cell for probability, map unit, lithology and age.
+  The layer control toggles the 345 known MRDS gold occurrences — they are
+  drawn for comparison and were never used at scoring time. The red band is the
+  Dahlonega belt, which the model inferred from rock type and age alone.</figcaption>
+</figure>
+
+<h2>The honest numbers</h2>
+<p>Spatial-block cross-validation, 5-fold, XGBoost. Two rows are emphasised
+because they answer different questions and quoting either alone would
+mislead.</p>
+<div class="scroll">
+<table>
+<thead><tr><th>Validation scheme</th><th>Blocks</th><th>AUC</th>
+<th>What it answers</th></tr></thead>
+<tbody>
+<tr><td>random KFold</td><td class="n">854</td><td class="n">0.927 ± 0.009</td><td><em>nothing useful — see below</em></td></tr>
+<tr><td>0.1° blocks (~9 km)</td><td class="n">517</td><td class="n">0.925 ± 0.023</td><td>interpolate between neighbours</td></tr>
+<tr><td>0.25° blocks (~23 km)</td><td class="n">223</td><td class="n">0.928 ± 0.022</td><td>interpolate between neighbours</td></tr>
+<tr class="hi"><td>0.5° blocks (~46 km)</td><td class="n">69</td><td class="n">0.919 ± 0.049</td><td>score the state with training points scattered nearby — how the map above is used</td></tr>
+<tr class="hi"><td>1.0° blocks (~93 km)</td><td class="n">24</td><td class="n">0.857 ± 0.043</td><td>generalise to a region held out entirely</td></tr>
+<tr><td>2.0° blocks (~186 km)</td><td class="n">8</td><td class="n">0.815 ± 0.049</td><td><em>too few blocks to quote</em></td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">Baseline AUC 0.500; baseline average precision 0.404
+(positive-class prevalence). 854 points, 345 positive.</p>
+
+<h2>Why not a random train/test split</h2>
+<p>Mineral occurrences are spatially autocorrelated. A point 200&nbsp;m from a
+known mine sits in the <em>same map unit</em>, so it carries the same lithology
+and the same age. Shuffle those into different folds and the "held out" point
+is one the model has already seen, feature for feature, label included. Random
+CV measures interpolation between neighbours. Nobody wants to know that.</p>
+<p>The surprise is that the random-vs-blocked gap at fine scales is only about
+0.008 AUC. That does <em>not</em> mean there is no leakage. It means 9–46&nbsp;km
+blocks sit <em>below the autocorrelation length</em> — the features are
+map-unit attributes, so a small block contains the same geology as its
+neighbours and the fold boundary cuts nothing. Only blocks large enough to hold
+out whole regions expose the effect, which is why AUC falls to
+0.815 at 186&nbsp;km.</p>
+
+<h2>Where to actually go</h2>
+<p>Ranked by map unit rather than by grid cell — see limitation 6.</p>
+<div class="scroll">
+<table>
+<thead><tr><th>P</th><th>Cells</th><th>Centroid</th><th>Map unit</th></tr></thead>
+<tbody>
+<tr><td class="n">0.920</td><td class="n">58</td><td class="n">34.10, -84.30</td><td>Neoproterozoic-Cambrian sedimentary</td></tr>
+<tr><td class="n">0.910</td><td class="n">7</td><td class="n">33.70, -82.60</td><td>Cambrian volcanic: felsic rocks</td></tr>
+<tr><td class="n">0.888</td><td class="n">1</td><td class="n">34.20, -84.00</td><td>Mesoproterozoic crystalline metamorphic rocks</td></tr>
+<tr><td class="n">0.796</td><td class="n">1</td><td class="n">33.90, -85.10</td><td>Devonian volcanic: mafic rocks</td></tr>
+<tr><td class="n">0.737</td><td class="n">17</td><td class="n">34.60, -84.50</td><td>Neoproterozoic sedimentary</td></tr>
+<tr><td class="n">0.737</td><td class="n">37</td><td class="n">34.70, -84.30</td><td>Neoproterozoic sedimentary rocks</td></tr>
+<tr><td class="n">0.465</td><td class="n">2</td><td class="n">33.80, -84.75</td><td>Devonian plutonic: undivided granitic rocks</td></tr>
+<tr><td class="n">0.451</td><td class="n">162</td><td class="n">33.70, -83.90</td><td>Neoproterozoic-Cambrian volcanic: interlayered sedimentary and volcanic rocks</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Honest limitations</h2>
+<ol class="lim">
+<li><strong>The lithology features are weaker than they look.</strong> The map
+source covering ~87% of positives has no metamorphic vocabulary at all — it
+calls gold-belt metasediments "sedimentary". <code>lith_quartz</code> fires on
+zero rows of 854, <code>lith_schist</code> on one. Quartz-vein-in-schist is
+the actual host rock and the model cannot see it.</li>
+<li><strong>Statewide AUC is partly a Fall Line detector.</strong> All 345
+positives fall in the crystalline province. Restricted to that province the
+model scores <strong>0.804 ± 0.101</strong> — real
+discrimination inside gold country, and the number that matters for planning a
+trip.</li>
+<li><strong>Negatives are pseudo-absences, not verified absences.</strong> A
+positive-unlabelled problem dressed as binary classification. Valid only
+because gold-bearing ground is a small fraction of the state, which was
+verified rather than assumed.</li>
+<li><strong>MRDS records where industry looked</strong>, not where gold is.
+Sampling bias in the labels propagates into the map.</li>
+<li><strong>No field validation yet.</strong> One trip is planned; the writeup
+happens either way.</li>
+<li><strong>Resolution is the map polygon, not the grid cell.</strong> Every
+feature is a map-unit attribute, so 1462 cells produce only
+34 distinct probabilities. Ranking cells within a plateau would be
+sorting noise. A finer grid cannot fix this; per-point features (distance to
+contacts, to faults, geochemistry) would.</li>
+</ol>
+
+<h2>How it works</h2>
+<p>USGS MRDS occurrences and Macrostrat geologic map units, joined by cached
+point lookups, deduplicated to one row per location, featurized into age and
+lithology-keyword features under an enforced allowlist, trained with XGBoost
+and validated spatially. A 0.1° grid over the state is featurized through the
+same code path and scored.</p>
+<p>Full method, every design decision with what was rejected, and the
+reproduction steps are in the
+<a href="https://github.com/benjamindehass/prospect">repository</a>.</p>
+
+<footer>
+Data: <a href="https://mrdata.usgs.gov/mrds/">USGS MRDS</a> (public domain) ·
+<a href="https://macrostrat.org">Macrostrat</a> (CC-BY 4.0) ·
+U.S. Census Bureau boundaries.<br>
+Sessions C–F were built autonomously by Claude (Opus 5); decision entries from
+that work are marked <code>[AUTONOMOUS]</code> in the repository record.
+</footer>
+
+</div>
+</body>
+</html>
