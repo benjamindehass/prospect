@@ -80,23 +80,24 @@ public geologic data, validated with spatial-block cross-validation.">
 
 <header>
   <h1>PROSPECT</h1>
-  <p class="lede">Predicting where gold occurs in Georgia from public geologic
-  data — and being honest about how well that works.</p>
+  <p class="lede">This model predicts where gold occurs in Georgia from public
+  geologic data. A prediction is not a result. The validation is the result, so
+  it is on this page too.</p>
 </header>
 
 <figure>
   <iframe src="map.html" title="Interactive gold prospectivity map of Georgia"
           loading="lazy"></iframe>
-  <figcaption>Hover any cell for probability, map unit, lithology and age.
-  The layer control toggles the {n_pos} known MRDS gold occurrences — they are
-  drawn for comparison and were never used at scoring time. The red band is the
-  Dahlonega belt, which the model inferred from rock type and age alone.</figcaption>
+  <figcaption>Hover any cell for probability, map unit, lithology and age. The
+  layer control toggles the {n_pos} known gold occurrences. They are drawn for
+  comparison. They were never used at scoring time. The red band is the
+  Dahlonega belt. The model was not told it exists.</figcaption>
 </figure>
 
 <h2>The honest numbers</h2>
-<p>Spatial-block cross-validation, 5-fold, XGBoost. Two rows are emphasised
-because they answer different questions and quoting either alone would
-mislead.</p>
+<p>Spatial-block cross-validation, five folds, XGBoost. Two rows are
+emphasized. They answer different questions, and quoting one alone would be
+dishonest.</p>
 <div class="scroll">
 <table>
 <thead><tr><th>Validation scheme</th><th>Blocks</th><th>AUC</th>
@@ -111,20 +112,20 @@ mislead.</p>
 
 <h2>Why not a random train/test split</h2>
 <p>Mineral occurrences are spatially autocorrelated. A point 200&nbsp;m from a
-known mine sits in the <em>same map unit</em>, so it carries the same lithology
-and the same age. Shuffle those into different folds and the "held out" point
-is one the model has already seen, feature for feature, label included. Random
-CV measures interpolation between neighbours. Nobody wants to know that.</p>
-<p>The surprise is that the random-vs-blocked gap at fine scales is only about
-0.008 AUC. That does <em>not</em> mean there is no leakage. It means 9–46&nbsp;km
-blocks sit <em>below the autocorrelation length</em> — the features are
-map-unit attributes, so a small block contains the same geology as its
-neighbours and the fold boundary cuts nothing. Only blocks large enough to hold
-out whole regions expose the effect, which is why AUC falls to
-{auc_2deg:.3f} at 186&nbsp;km.</p>
+known mine sits in the <em>same map unit</em>. It carries the same lithology and
+the same age. Shuffle those into different folds and the held-out point is one
+the model has already seen, feature for feature, label included. Random
+cross-validation measures interpolation between neighbors. That is not the
+question being asked.</p>
+<p>The gap between random and blocked validation is only 0.008&nbsp;AUC at fine
+scales. That does not mean there is no leakage. It means the blocks are too
+small. Every feature is a map-unit attribute, so a 9&nbsp;km block holds the
+same geology as its neighbors and the fold boundary cuts nothing. Only blocks
+large enough to hold out whole regions reveal the effect. At 186&nbsp;km the
+score falls to {auc_2deg:.3f}.</p>
 
 <h2>Where to actually go</h2>
-<p>Ranked by map unit rather than by grid cell — see limitation 6.</p>
+<p>Ranked by map unit, not by grid cell. Limitation 6 explains why.</p>
 <div class="scroll">
 <table>
 <thead><tr><th>P</th><th>Cells</th><th>Centroid</th><th>Map unit</th></tr></thead>
@@ -137,39 +138,38 @@ out whole regions expose the effect, which is why AUC falls to
 <h2>Honest limitations</h2>
 <ol class="lim">
 <li><strong>The lithology features are weaker than they look.</strong> The map
-source covering ~87% of positives has no metamorphic vocabulary at all — it
-calls gold-belt metasediments "sedimentary". <code>lith_quartz</code> fires on
-zero rows of {n_rows}, <code>lith_schist</code> on one. Quartz-vein-in-schist is
-the actual host rock and the model cannot see it.</li>
+source covering 87% of positives has no metamorphic vocabulary. It calls
+gold-belt metasediments "sedimentary". <code>lith_quartz</code> fires on zero
+rows of {n_rows}. <code>lith_schist</code> fires on one. Quartz-vein-in-schist
+is the host rock for Georgia gold, and the model cannot see it.</li>
 <li><strong>Statewide AUC is partly a Fall Line detector.</strong> All {n_pos}
 positives fall in the crystalline province. Restricted to that province the
-model scores <strong>{auc_prov:.3f} ± {auc_prov_sd:.3f}</strong> — real
-discrimination inside gold country, and the number that matters for planning a
-trip.</li>
-<li><strong>Negatives are pseudo-absences, not verified absences.</strong> A
-positive-unlabelled problem dressed as binary classification. Valid only
-because gold-bearing ground is a small fraction of the state, which was
-verified rather than assumed.</li>
-<li><strong>MRDS records where industry looked</strong>, not where gold is.
-Sampling bias in the labels propagates into the map.</li>
-<li><strong>No field validation yet.</strong> One trip is planned; the writeup
+model scores <strong>{auc_prov:.3f} ± {auc_prov_sd:.3f}</strong>. That is real
+discrimination inside gold country. It is also the number that matters for
+planning a trip.</li>
+<li><strong>Negatives are pseudo-absences, not verified absences.</strong> This
+is a positive-unlabeled problem dressed as binary classification. It holds only
+because gold-bearing ground is a small fraction of the state. That was
+verified, not assumed.</li>
+<li><strong>MRDS records where industry looked.</strong> It does not record
+where gold is. Sampling bias in the labels propagates into the map.</li>
+<li><strong>No field validation yet.</strong> One trip is planned. The writeup
 happens either way.</li>
 <li><strong>Resolution is the map polygon, not the grid cell.</strong> Every
-feature is a map-unit attribute, so {n_cells} cells produce only
-{n_distinct} distinct probabilities. Ranking cells within a plateau would be
-sorting noise. A finer grid cannot fix this; per-point features (distance to
-contacts, to faults, geochemistry) would.</li>
+feature is a map-unit attribute, so {n_cells} cells produce {n_distinct}
+distinct probabilities. Ranking cells inside a plateau would be sorting noise.
+A finer grid does not fix this. Per-point features would: distance to contacts,
+distance to faults, geochemistry.</li>
 </ol>
 
 <h2>How it works</h2>
-<p>USGS MRDS occurrences and Macrostrat geologic map units, joined by cached
-point lookups, deduplicated to one row per location, featurized into age and
-lithology-keyword features under an enforced allowlist, trained with XGBoost
-and validated spatially. A {step}° grid over the state is featurized through the
-same code path and scored.</p>
-<p>Full method, every design decision with what was rejected, and the
-reproduction steps are in the
-<a href="{repo}">repository</a>.</p>
+<p>USGS MRDS occurrences and Macrostrat map units, joined by cached point
+lookups. Deduplicated to one row per location. Featurized into age and
+lithology features under an enforced allowlist. Trained with XGBoost, validated
+spatially. A {step}° grid over the state runs through the same code path and
+gets scored.</p>
+<p>The method, every design decision with what was rejected, and the steps to
+reproduce it are in the <a href="{repo}">repository</a>.</p>
 
 <footer>
 Data: <a href="https://mrdata.usgs.gov/mrds/">USGS MRDS</a> (public domain) ·
@@ -186,10 +186,10 @@ that work are marked <code>[AUTONOMOUS]</code> in the repository record.
 
 QUESTION = {
     0.0: "<em>nothing useful — see below</em>",
-    0.1: "interpolate between neighbours",
-    0.25: "interpolate between neighbours",
-    0.5: "score the state with training points scattered nearby — how the map above is used",
-    1.0: "generalise to a region held out entirely",
+    0.1: "interpolate between neighbors",
+    0.25: "interpolate between neighbors",
+    0.5: "score the state with training points scattered nearby. This is how the map above is used",
+    1.0: "generalize to a region held out entirely",
     2.0: "<em>too few blocks to quote</em>",
 }
 
